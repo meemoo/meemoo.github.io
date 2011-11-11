@@ -9,22 +9,33 @@
     max-width: 750px;
     margin: 0 auto 75px;
     font-family: Georgia, 'Times New Roman', serif;
-    color: #080000;
+    color: #62504c;
     background-color: #FDFDFA;
   }
+  a {
+    color: #9a7e77;
+  }
+  h1, h2, .shadow {
+    color: #9a7e77;
+    text-shadow: 0 1px 0 #62504c;
+  }
   h1 {
-    padding-bottom: 3px;
-    border-bottom: #CDCDCC 2px solid;
-    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: #62504c 1px dotted;
     text-align: center;
+    font-weight: 100;
+    font-size: 225%;
+    line-height: 110%;
   }
   h2 {
-    margin-top: 35px;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 200%;
+    line-height: 110%;
+    margin: 1.1em 0 0 0;
   }
   p, ol, ul {
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 100%;
+    line-height: 175%;
   }
   nav {
     text-align: center;
@@ -81,9 +92,10 @@
     <img src="meemoo-sketch-by-jyri-pieniniemi.jpg" width="500" height="411" alt="one meemoo mixing cupcakes" />
   </p>
   <p style="padding-top:50px;">
-    <em style="font-size:200%;">Meemoo</em> are small creatures, furry or scaley, that live in the walls. 
-    At night they come out to steal your cupcakes.
-    Lately they have been remixing them as well...
+    <em style="font-size:200%;" class="shadow">Meemoo</em> are small creatures, furry or scaley, that live in the walls. 
+    Have you heard them scratching?
+    At night they look for cupcakes in the kitchen.
+    Lately they have been remixing them....
   </p>
   
   <h2 style="clear:left;">Why</h2>
@@ -108,14 +120,16 @@
     A Meemoo composition is a graph of modules and the wires that connect them. 
     Modules are HTML pages that can live anywhere online, using any web technology.
     Wires represent how the modules send messages to each other. <br />
-    <img src="http://meemoo.noisepages.com/files/2011/09/Screen-shot-2011-09-24-at-15.49.05-.png" width="750" height="278" alt="meemoo screenshot" /><br />
-    <a href="http://meemoo.github.com/iframework">Demo</a> (press start)
+    <a href="http://meemoo.github.com/iframework">
+      <img src="Screen-shot-2011-11-11.png" style="width:100%;max-width:852px;border:1px #9a7e77 solid;" alt="meemoo screenshot" /><br />
+      Demo
+    </a> (press start)
   </p>
   <p>
     Meemoo takes some inspiration from Quartz Composer, Reason, Pure Data and AudioTool. 
     But Meemoo is 100% of the web. 
     It will be a tool for creative collaboration, to tie together smaller web demos into more complex compositions.
-    &quot;View Source&quot; taught many of us to program, and will be central to Meemoo.
+    &quot;View Source&quot; taught me to program, and will be central to Meemoo.
   </p>
   <p>
     Compositions will be sharable on a community site. 
