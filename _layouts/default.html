@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Meemoo modular JavaScript multimedia graph framework (HTML5!) by Forrest Oliphant</title>
+  
+  <style type="text/css">
+  body {
+    max-width: 750px;
+    margin: 0 auto 75px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #62504c;
+    background-color: #FDFDFA;
+  }
+  a {
+    color: #9a7e77;
+  }
+  h1, h2, .shadow {
+    color: #9a7e77;
+    text-shadow: 0 1px 0 #62504c;
+  }
+  h1 {
+    padding-bottom: 10px;
+    border-bottom: #62504c 1px dotted;
+    text-align: center;
+    font-weight: 100;
+    font-size: 37px;
+    line-height: 40px;
+  }
+  h2 {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 31px;
+    margin: 1.1em 0 0 0;
+  }
+  p, ol, ul {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+    vertical-align: middle;
+  }
+  </style>
+  
+  <script type="text/javascript">
+  /* <![CDATA[ */
+      (function() {
+          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+          t.parentNode.insertBefore(s, t);
+      })();
+  /* ]]> */
+  </script>
+  
+</head>
+<body>
+  
+  <header>
+    <h1>
+      Meemoo: modular web media framework
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="http://getsatisfaction.com/sembiki">Feedback</a></li>
+        <li><a href="https://github.com/meemoo">Source</a></li>
+        <li><a href="/#donate">Donate</a></li>
+        <li>
+          <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/"></a>
+          <noscript>
+            <a href="http://flattr.com/thing/183497/Meemoo-a-web-application-for-remixing-web-video" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+          </noscript>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  
+  {{ content }}
+  
+  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-274009-19']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<script type="text/javascript">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay";  
+  feedback_widget_options.company = "sembiki";
+  feedback_widget_options.placement = "left";
+  feedback_widget_options.color = "#222";
+  feedback_widget_options.style = "idea";
+  
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+</body>
+</html>

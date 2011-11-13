@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: (Ab)using html &lt;video&gt;
+tags: 
+- chrome
+- Development
+- firefox
+- html
+- javascript
+- safari
+- video
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "2764"
+  _wp_old_slug: ""
+---
+<p>
+When I set out to write a web application for remixing web video, I did some tests and figured out that I could write it all in html+js, and it has been a great learning experience and mostly smooth. However, there are always going to be differences in browsers. While I haven't needed to write any browser workarounds (thanks to JQuery and ignoring older browsers), the &lt;video&gt; element works differently in the 3 browsers that I'm testing. 
+</p>
+<p>
+The main functionality of Meemoo is setting up and skipping to time-based triggers in video, which is as easy as <code>video.currentTime = 5</code>. Because of the different ways that browsers handle video caching, performance can be quite different.
+</p>
+<p>
+Chrome can skip to triggers around the current playhead with great response time, but skipping backwards more than a few seconds causes a pause. Safari skips forward fine, but skipping backwards causes the video element to report itself not buffered after that time, which blocks skipping forward for a moment. <strong>Firefox with WebM video seems to be the best combination</strong> for now, with very responsive seeks all over the length of the video. 
+</p>
+<p>
+The YouTube player is Flash, and skipping feels a little less responsive than with the HTML video players, but is fast enough. Triggers close to the end of the video sometimes cause the video to rebuffer, which isn't good.
+</p>
+<p>
+I also had a hair-pulling <a href="http://stackoverflow.com/questions/5927573/html5-video-playing-twice-audio-doubled-with-jquery-append">mystery bug</a> that caused ghost players to be playing in the background, found a workaround. 
+</p>

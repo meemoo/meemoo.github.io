@@ -1,253 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Meemoo modular JavaScript multimedia graph framework (HTML5!) by Forrest Oliphant</title>
-  
-  <style type="text/css">
-  body {
-    max-width: 750px;
-    margin: 0 auto 75px;
-    font-family: Georgia, 'Times New Roman', serif;
-    color: #62504c;
-    background-color: #FDFDFA;
-  }
-  a {
-    color: #9a7e77;
-  }
-  h1, h2, .shadow {
-    color: #9a7e77;
-    text-shadow: 0 1px 0 #62504c;
-  }
-  h1 {
-    padding-bottom: 10px;
-    border-bottom: #62504c 1px dotted;
-    text-align: center;
-    font-weight: 100;
-    font-size: 225%;
-    line-height: 110%;
-  }
-  h2 {
-    font-weight: 100;
-    font-size: 200%;
-    line-height: 110%;
-    margin: 1.1em 0 0 0;
-  }
-  p, ol, ul {
-    font-size: 100%;
-    line-height: 175%;
-  }
-  nav {
-    text-align: center;
-  }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li {
-    font-size: 17px;
-    display: inline-block;
-    margin: 0 1em;
-    padding: 0;
-    vertical-align: middle;
-  }
-  </style>
-  
-  <script type="text/javascript">
-  /* <![CDATA[ */
-      (function() {
-          var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-          t.parentNode.insertBefore(s, t);
-      })();
-  /* ]]> */
-  </script>
-  
-</head>
-<body>
-  
-  <h1>Meemoo: modular web media framework</h1>
+---
+layout: default
+title: Meemoo modular JavaScript multimedia graph framework (HTML5!) by Forrest Oliphant
+---
 
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li><a href="http://meemoo.noisepages.com/">Blog</a></li>
-      <li><a href="http://getsatisfaction.com/sembiki">Feedback</a></li>
-      <li><a href="https://github.com/meemoo">Source</a></li>
-      <li><a href="#donate">Donate</a></li>
-      <li>
-        <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/"></a>
-        <noscript>
-          <a href="http://flattr.com/thing/183497/Meemoo-a-web-application-for-remixing-web-video" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-        </noscript>
-      </li>
-    </ul>
-  </nav>
-  
-  
-  <p style="float:left;">
-    <img src="meemoo-sketch-by-jyri-pieniniemi.jpg" width="500" height="411" alt="one meemoo mixing cupcakes" />
-  </p>
-  <p style="padding-top:50px;">
-    <em style="font-size:200%;" class="shadow">Meemoo</em> are small creatures, furry or scaley, that live in the walls. 
-    Have you heard them scratching?
-    At night they look for cupcakes in the kitchen.
-    Lately they have been remixing them....
-  </p>
-  
-  <h2 style="clear:left;">Why</h2>
-  <p>
-    I am a strong believer in the idea that <a href="http://www.everythingisaremix.info/">everything is a remix</a>. 
-    Sampling, mashup music, and open source software are obvious examples, 
-    but I would argue that all science, language, and culture combines, evolves, and builds on the creations and discoveries of the past.
-  </p>
-  <p>
-    <ul>
-      <li>Programming is everywhere; software is becoming our environment. </li>
-      <li>Everybody should learn to program. </li>
-      <li>Programming should be collaborative and fun. </li>
-    </ul>
-  </p>
+<p style="float:left;">
+  <img src="/images/meemoo-sketch-by-jyri-pieniniemi.jpg" width="500" height="411" alt="one meemoo mixing cupcakes" />
+</p>
+<p style="padding-top:50px;">
+  <em style="font-size:200%;" class="shadow">Meemoo</em> are small creatures, furry or scaley, that live in the walls. 
+  Have you heard them scratching?
+  At night they look for cupcakes in the kitchen.
+  Lately they have been remixing them....
+</p>
 
-  <h2>What</h2>
-  <p>
-    Meemoo is a web application that encourages remixing and experimentation with web media. 
-  </p>
-  <p>
-    A Meemoo composition is a graph of modules and the wires that connect them. 
-    Modules are HTML pages that can live anywhere online, using any web technology.
-    Wires represent how the modules send messages to each other. <br />
-    <a href="http://meemoo.github.com/iframework">
-      <img src="Screen-shot-2011-11-11.png" style="width:100%;max-width:852px;border:1px #9a7e77 solid;" alt="meemoo screenshot" /><br />
-      Demo
-    </a> (press start)
-  </p>
-  <p>
-    Meemoo takes some inspiration from Quartz Composer, Reason, Pure Data and AudioTool. 
-    But Meemoo is 100% of the web. 
-    It will be a tool for creative collaboration, to tie together smaller web demos into more complex compositions.
-    &quot;View Source&quot; taught me to program, and will be central to Meemoo.
-  </p>
-  <p>
-    Compositions will be sharable on a community site. 
-    All compositions and modules will be forkable in the open source spirit of creative collaboration. 
-  </p>
-  <p>
-    One composition will allow web video to be remixed with modules familiar to people who create digital music: patterns and pattern sequencers. 
-    Another person might take the video player out of this composition, and replace it with a JavaScript AudioAPI synth.
-    Another might add a music visualizer written in Processing.js. 
-  </p>
-  
-  <!-- 
-  <h2>Make a Module</h2>
-  <p>Coming soon...</p>  
-  -->
-
-  <!-- 
-  <h3>
-    Can your browser run this?
-  </h3>
+<h2 style="clear:left;">Why</h2>
+<p>
+  I am a strong believer in the idea that <a href="http://www.everythingisaremix.info/">everything is a remix</a>. 
+  Sampling, mashup music, and open source software are obvious examples, 
+  but I would argue that all science, language, and culture combines, evolves, and builds on the creations and discoveries of the past.
+</p>
+<p>
   <ul>
-    <li>Modern JavaScript with JSON: <span id="js">?</span></li>
-    <li>Local storage: <span id="localstorage">?</span></li>
-    <li>Video: <span id="video">?</span>
-      <ul style="font-size:.75em;">
-        <li>webm: <span id="webm">?</span></li>
-        <li>h264: <span id="h264">?</span></li>
-        <li>ogg: <span id="ogg">?</span></li>
-      </ul>
-    </li>
-    <li style="display:none">Audio: <span id="audio">?</span>
-      <ul style="font-size:.75em;">
-        <li>m4a: <span id="m4a">?</span></li>
-        <li>mp3: <span id="mp3">?</span></li>
-        <li>ogg: <span id="ogga">?</span></li>
-      </ul>
-    </li>
+    <li>Programming is everywhere; software is becoming our environment. </li>
+    <li>Everybody should learn to program. </li>
+    <li>Programming should be collaborative and fun. </li>
   </ul>
-  <p>
-    Chrome 12+ and Firefox 6+ seem to work best.
-  </p> 
-  -->
-  
-  <h2>Who</h2>
-  <p>
-    <a href="http://forresto.com/">Forrest Oliphant</a> at <a href="http://mlab.taik.fi/">Media Lab Helsinki</a>
-  </p>
-  <p>
-    Meemoo is a <a href="https://webfwd.org/projects">Mozilla WebFWD fellow</a> project.
-  </p>
-  <p>
-    This app is free software (AGPL) and the source is <a href="https://github.com/meemoo">available on GitHub</a>.
-  </p>
-  <p>
-    Meemoo wildlife illustration by <a href="http://www.flickr.com/photos/atomicink/">Jyri Pieniniemi</a>.
-  </p>
-  
-  <h2><a name="donate"></a>Donate</h2>
-  <p>
-    Support development with Flattr
-    <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/"></a>
-    <noscript>
-      <a href="http://flattr.com/thing/183497/Meemoo-a-web-application-for-remixing-web-video" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-    </noscript>
-    or Paypal
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=K7UYG9Y6XLHHS"><img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="Paypal Donate" style="vertical-align:-4px;" /></a>
-  </p>
-  
-  
+</p>
 
-<!-- <script type="text/javascript">
-  // document.getElementById("js").innerHTML = Array.prototype.indexOf && JSON.parse && JSON.stringify ? "yes" : "no"
-  // document.getElementById("localstorage").innerHTML = Modernizr.localstorage ? "yes" : "no"
-  // document.getElementById("video").innerHTML = Modernizr.video ? "yes" : "no"
-  // if (Modernizr.video) {
-  //   document.getElementById("webm").innerHTML = !Modernizr.video.webm ? "no" : Modernizr.video.webm
-  //   document.getElementById("h264").innerHTML = !Modernizr.video.h264 ? "no" : Modernizr.video.h264
-  //   document.getElementById("ogg").innerHTML = !Modernizr.video.ogg ? "no" : Modernizr.video.ogg
-  // }
-  // document.getElementById("audio").innerHTML = Modernizr.audio ? "yes" : "no"
-  // if (Modernizr.audio) {
-  //   document.getElementById("m4a").innerHTML = !Modernizr.audio.m4a ? "no" : Modernizr.audio.m4a
-  //   document.getElementById("mp3").innerHTML = !Modernizr.audio.mp3 ? "no" : Modernizr.audio.mp3
-  //   document.getElementById("ogga").innerHTML = !Modernizr.audio.ogg ? "no" : Modernizr.audio.ogg
-  // }
-</script> -->
+<h2>What</h2>
+<p>
+  Meemoo is a web application that encourages remixing and experimentation with web media. 
+</p>
+<p>
+  A Meemoo composition is a graph of modules and the wires that connect them. 
+  Modules are HTML pages that can live anywhere online, using any web technology.
+  Wires represent how the modules send messages to each other. <br />
+  <a href="http://meemoo.github.com/iframework">
+    <img src="/images/Screen-shot-2011-11-11.png" style="width:100%;max-width:852px;border:1px #9a7e77 solid;" alt="meemoo screenshot" /><br />
+    Demo
+  </a> (press start)
+</p>
+<p>
+  Meemoo takes some inspiration from Quartz Composer, Reason, Pure Data and AudioTool. 
+  But Meemoo is 100% of the web. 
+  It will be a tool for creative collaboration, to tie together smaller web demos into more complex compositions.
+  &quot;View Source&quot; taught me to program, and will be central to Meemoo.
+</p>
+<p>
+  Compositions will be sharable on a community site. 
+  All compositions and modules will be forkable in the open source spirit of creative collaboration. 
+</p>
+<p>
+  One composition will allow web video to be remixed with modules familiar to people who create digital music: patterns and pattern sequencers. 
+  Another person might take the video player out of this composition, and replace it with a JavaScript AudioAPI synth.
+  Another might add a music visualizer written in Processing.js. 
+</p>
 
+<h2><a name="blog"></a>Blog Posts</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-274009-19']);
-  _gaq.push(['_trackPageview']);
-  
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+<h2>Who</h2>
+<p>
+  <a href="http://forresto.com/">Forrest Oliphant</a> at <a href="http://mlab.taik.fi/">Media Lab Helsinki</a>
+</p>
+<p>
+  Meemoo is a <a href="https://webfwd.org/projects">Mozilla WebFWD fellow</a> project.
+</p>
+<p>
+  This app is free software (AGPL) and the source is <a href="https://github.com/meemoo">available on GitHub</a>.
+</p>
+<p>
+  Meemoo wildlife illustration by <a href="http://www.flickr.com/photos/atomicink/">Jyri Pieniniemi</a>.
+</p>
 
+<h2><a name="donate"></a>Donate</h2>
+<p>
+  Support development with Flattr
+  <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/"></a>
+  <noscript>
+    <a href="http://flattr.com/thing/183497/Meemoo-a-web-application-for-remixing-web-video" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+  </noscript>
+  or Paypal
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=K7UYG9Y6XLHHS"><img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="Paypal Donate" style="vertical-align:-4px;" /></a>
+</p>
 
-<script type="text/javascript">
-  var is_ssl = ("https:" == document.location.protocol);
-  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
-  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type="text/javascript">
-  var feedback_widget_options = {};
-
-  feedback_widget_options.display = "overlay";  
-  feedback_widget_options.company = "sembiki";
-  feedback_widget_options.placement = "left";
-  feedback_widget_options.color = "#222";
-  feedback_widget_options.style = "idea";
-  
-  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
-</script>
-
-</body>
-</html>

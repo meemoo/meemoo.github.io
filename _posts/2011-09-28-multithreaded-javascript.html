@@ -1,0 +1,28 @@
+--- 
+layout: post
+title: multithreaded javascript?
+tags: 
+- Development
+- javascript
+- module
+- opera
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "2764"
+---
+
+<p>
+  When first designing the video remix version of Meemoo, I put the video players in an iframe page, separate from the main application. This made it possible to "pop-out" the players to be shown on a projector. The communication between the app and the players happens with <a href="https://developer.mozilla.org/en/DOM/window.postMessage"><code>window.postMessage()</code></a>. This is how the new framework works as well: iframes communicating with postMessage.
+</p>
+<p>
+  <a href="http://meemoo.noisepages.com/files/2011/09/Screen-shot-2011-09-28-at-01.36.58-.png"><img src="http://meemoo.noisepages.com/files/2011/09/Screen-shot-2011-09-28-at-01.36.58--150x150.png" alt="blocking module" width="150" height="150" class="size-thumbnail wp-image-124" /></a><br />
+  blocking module
+</p>
+<p>
+  At first I thought that this would have the added benefit of running the JavaScript of each module in a separate thread, but it turns out that it only works like this in Opera. I made a test by adding a module with a <a href="https://github.com/meemoo/iframework/blob/gh-pages/examples/blocking.html">blocking script</a>. In all browsers except Opera, pressing the button stops the processing and glitch modules. Unfortunately, Opera's JavaScript performance is noticably chunkier than the primary browsers that I'm testing: Chrome, Firefox, and Safari.
+</p>
+<p>
+  I wonder if <code>window.open()</code> windows run in separate threads. This is worth a test.
+</p>

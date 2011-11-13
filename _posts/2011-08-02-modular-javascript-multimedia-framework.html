@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: Modular JavaScript multimedia framework
+tags: 
+- Development
+- javascript
+- media
+- multimedia
+- node
+- wiring
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "2764"
+---
+
+<p>
+  I like the immediacy of wiring-metaphor multimedia frameworks like Quartz Composer and Pure Data. On the other hand, logic controls that would be simple to code can get quite complicated to wire, and messy tangles of wires can quickly cover the screen.
+</p>
+<p>
+  I have decided to abstract out the components of Meemoo (metronome, pattern sequencer, video players) into reusable JavaScript instruments that can communicate with each other using OSC-like messages. I have made a proof-of-concept (<a href="http://meemoo.org/test/iframe-nodes-cross.html">server 1</a>, <a href="http://sembiki.github.com/meemoo/test/iframe-nodes-cross.html">server 2</a>) that shows how this can work with very little latency: 
+</p>
+<p>
+  <a href="http://meemoo.noisepages.com/files/2011/08/iframes.png"><img src="http://meemoo.noisepages.com/files/2011/08/iframes-640x362.png" alt="" width="640" height="362" class="size-large wp-image-35" /></a><br />
+  iframes communicating with OSC-like strings through window.postMessage()
+</p>
+<p>
+  To go these 10 hops, Firefox 5.0.1 takes ~42ms, Chrome 12 takes ~12ms, and Safari 5.1 takes ~4ms. I'm not sure why my test is showing Safari as the winner of window.postMessage() speed, but they all seem fast enough.
+</p>
+<p>
+  The JS of each frame runs in a separate thread, so if something slows down in one (fancy prosessing.js or WebGL visuals?), it shouldn't affect the others (master metronome). A simple web application will save the state of all of the frames, and the <a href="https://gist.github.com/9f98779f853f3f0ede87">graph data</a> of which iframe is sending messages where. Forking compositions <em>and</em> modules will be simple and encouraged by the design of the project. Stay tuned...
+</p>
