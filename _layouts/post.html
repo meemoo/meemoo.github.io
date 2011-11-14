@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post">
+<div class="post clear">
   <h2>{{ page.title }}</h2>
   <p>{{ page.date | date_to_string }}</p>
   {{ content }}
@@ -25,7 +25,7 @@ layout: default
   <div class="clear">&nbsp;</div> 
 </div>
  
-<div class="related">
+<div id="related clear">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
