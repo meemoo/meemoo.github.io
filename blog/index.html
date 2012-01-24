@@ -7,7 +7,7 @@ title: Blog
 <div class="posts">
   {% for post in site.posts %}
     <div class="post clear">
-      <h2><a href="{{ post.url }}" style="text-decoration:none;">{{ post.title }}</a></h2>
+      <h1><a href="{{ post.url }}" style="text-decoration:none;">{{ post.title }}</a></h1>
       <p>{{ post.date | date_to_string }}</p>
       {{ post.content }}
     </div>
