@@ -31,3 +31,7 @@ A friction-free app store.
 I was imagining a Meemoo App Store, but thought that people might be adverse to others profiting off of their open-source modules. If this were to slow the amount of module building and sharing, it would undermine the point of the project. 
 
 A deferred-tip system which defers credit from an app's tips to the modules it uses would be an interesting experiment. You could also provide credit when forking a module. Would this encourage open-source collaboration or get in the way?
+
+Like this idea? <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/blog/2012-01-24-friction-free-post-scarcity-creative-economies/"></a>
+<noscript><a href="http://flattr.com/thing/470289/Friction-Free-Post-Scarcity-Creative-Economies" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
