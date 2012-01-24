@@ -1,0 +1,23 @@
+--- 
+layout: post
+title: Friction-Free Post-Scarcity Creative Economies
+tags: 
+- creative-commons
+- flattr
+- dwolla
+- friction-free
+- post-scarcity
+- creative-economy
+---
+
+Lately I have been imagining a post-scarcity friction-free creative economy. 
+
+Music, film, and publishing industries are thrashing around trying to readjust to their post-scarcity reality. Object design will be next to be "post-scarce" with the rise of 3D printers. How can we design a creative economy that better matches reality?
+
+If financial transactions were friction-free (no fees or percentages, like Dwolla transactions <$10), then a creative work could specify percentages of tips to other parties. If you tip an band, then they could split that tip among label and members as they see fit. Those credit links would be the opposite of paid links (rel="nofollow"), they would be paying credits (rel=credit(10%) ?). 
+
+If you could tip a filmmaker as easily as a Facebook "like" or Flattr, and they could defer part of that tip to the musician from whom they used a CC-licensed track, wouldn't that be a good way to provide value to a Creative Commons economic system?
+
+Now, if you Flattr a blog post that embeds a video, the blog owner gets the full value of the Flattr. If they could defer 99% of the Flattr to the film, then the filmmaker would be encouraged to CC-license their stuff so that it could be shown by any venue interested. The venue could be a bike-powered back-alley film festival and it could work the same way.
+
+Of course, it should be distributed, not tied to Flattr or Dwolla. Maybe "friction-free creative economy" certification and logo for services are in order.
