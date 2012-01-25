@@ -19,11 +19,15 @@ Link = credit = deferred tip.
 
 If financial transactions were friction-free (no fees or percentages, like [Dwolla transactions <$10](http://blog.dwolla.com/all-transactions-under-10-are-now-free-1-for-small-business/)), then a creative work could specify percentages of tips to other parties. If you tip an band, then they could split that tip among label and members as they see fit. Those credit links would be the opposite of paid links (`rel="nofollow"`), they would be paying credits (`rel=credit(10%)` ?). 
 
+<iframe src="http://forresto.github.com/friction-free-creative-economy/" frameborder="0" width="761" height="600"></iframe><br /><a href="http://forresto.github.com/friction-free-creative-economy/">Model of Deferred Tipping</a>
+
 If you could tip a filmmaker as easily as a Facebook "like" or Flattr, and they could defer part of that tip to the musician from whom they used a CC-licensed track, wouldn't that be a good way to provide value to a Creative Commons economic system?
 
 Now, if you [Flattr](https://flattr.com/) a blog post that embeds a video, the blog owner gets the full value of the Flattr. If they could defer 99% of the Flattr to the film, then the filmmaker would be encouraged to CC-license their stuff so that it could be shown by any venue interested. The venue could be a bike-powered back-alley film festival and it could work the same way.
 
-Of course, it should be distributed, not tied to Flattr or Dwolla. Maybe "friction-free creative economy" certification and logo for services are in order.
+What if the blog owner is greedy and only defers 5% of the tip to the movie? The amount of the credit should be clearly displayed with the tip widget, along with the breakdown of how your tip will be distributed. The tipper could then decide to just click through to the movie page to tip it directly.
+
+Of course, it should be distributed, not tied to just Flattr or Dwolla. Maybe "friction-free creative economy" certification and logo for services are in order.
 
 A friction-free app store.
 --------------------------
