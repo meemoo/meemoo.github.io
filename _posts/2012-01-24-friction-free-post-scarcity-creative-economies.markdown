@@ -19,7 +19,9 @@ Link = credit = deferred tip.
 
 If financial transactions were friction-free (no fees or percentages, like [Dwolla transactions <$10](http://blog.dwolla.com/all-transactions-under-10-are-now-free-1-for-small-business/)), then a creative work could specify percentages of tips to other parties. If you tip an band, then they could split that tip among label and members as they see fit. Those credit links would be the opposite of paid links (`rel="nofollow"`), they would be paying credits (`rel=credit(10%)` ?). 
 
-<iframe src="http://forresto.github.com/friction-free-creative-economy/" frameborder="1" width="761" height="600"></iframe><br /><a href="http://forresto.github.com/friction-free-creative-economy/">Model of Deferred Tipping</a>
+<a href="http://forresto.github.com/friction-free-creative-economy/">
+	<img src="Screen-shot-2012-01-25-friction-free.png" width="761" height="506" /><br />Interactive Model of Deferred Tipping (powered by Meemoo)
+</a>
 
 If you could tip a filmmaker as easily as a Facebook "like" or Flattr, and they could defer part of that tip to the musician from whom they used a CC-licensed track, wouldn't that be a good way to provide value to a Creative Commons economic system?
 
