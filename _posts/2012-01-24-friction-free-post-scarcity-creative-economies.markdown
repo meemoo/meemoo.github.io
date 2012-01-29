@@ -12,7 +12,7 @@ tags:
 
 Lately I have been imagining a post-scarcity friction-free creative economy. 
 
-Music, film, and publishing industries are thrashing around trying to readjust to their post-scarcity reality. Object design will be next to be "post-scarce" with the rise of 3D printers. How can we design a creative economy that better matches reality? Couldn't we design a system that is more like the internet, and less about [censorship and control](http://boingboing.net/2012/01/10/lockdown.html)?
+Music, film, and publishing industries are thrashing around trying to readjust to their post-scarcity reality. [Object design will be next](http://www.publicknowledge.org/it-will-be-awesome-if-they-dont-screw-it-up) to be "post-scarce" with the rise of 3D printers. How can we design a creative economy that better matches reality? Couldn't we design a system that is more like the internet, and less about [censorship and control](http://boingboing.net/2012/01/10/lockdown.html)?
 
 Link = credit = deferred tip.
 -----------------------------
