@@ -14,7 +14,7 @@ I was invited to do visuals for a [Zodiak](http://www.zodiak.fi/en/)'s Side-Step
 <iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
 [Meemoo Live Animation at Zodiak (on Youtube)](http://www.youtube.com/watch?v=T_tCyYGLWKM)
 
-Many thanks to Aino Riiho (and other partygoers) for the clay sculpting, Juho Santasalo for the videography, and Heikki Sillanpää for the custom music track.
+Many thanks to Aino Riiho (and other partygoers) for the clay sculpting, Juho Santasalo for the videography, and Heikki Sillanpää ([dkstr](http://soundcloud.com/dkstr)) for the music.
 
 ![Zodiak claymation animated](http://meemoo.org/images/Screen-shot-2012-02-12-zodiak.gif)  
 This is what you get for hiring a web developer to VJ your party (o_-)
