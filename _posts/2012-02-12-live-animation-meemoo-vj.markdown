@@ -11,7 +11,7 @@ tags:
 
 I was invited to do visuals for a [Zodiak](http://www.zodiak.fi/en/)'s Side-Step dance festival club night. I used the gig as an opportunity to push Meemoo development and pressure-test the live-animation features. 
 
-<iframe width="720" height="518" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
 [Meemoo Live Animation at Zodiak (on Youtube)](http://www.youtube.com/watch?v=T_tCyYGLWKM)
 
 Many thanks to Aino Riiho (and other partygoers) for the clay sculpting, Juho Santasalo for the videography, and Heikki Sillanpää for the custom music track.
