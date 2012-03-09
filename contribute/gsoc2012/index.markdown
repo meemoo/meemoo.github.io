@@ -3,6 +3,9 @@ layout: default
 title: Google Summer of Code 2012 ideas
 ---
 
+Google Summer of Code 2012
+--------------------------
+
 Meemoo is a framework for building creative web apps that are *hackable by design*.
 Any app that can be decribed by a data-flow diagram can be built in Meemoo.
 Modules are web pages with a little bit of js that defines the inputs and outputs.
