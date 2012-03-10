@@ -29,6 +29,7 @@ Framework
 * [qunit](http://docs.jquery.com/QUnit) unit testing
 * touchscreen/mobile support + ux
 * [boot-to-gecko](https://wiki.mozilla.org/B2G) experimentation
+* appification with [phonegap](https://github.com/phonegap) for device features
 * ux and graphic design
 
 Community
