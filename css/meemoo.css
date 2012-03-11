@@ -62,6 +62,7 @@ nav ul li {
 .right { float: right; }
 .left { float: left; }
 
+img.border,
 .post img {
   border: 1px #62504c dotted;
 }
