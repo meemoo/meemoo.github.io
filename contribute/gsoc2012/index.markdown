@@ -36,6 +36,7 @@ Community
 
 * design and build community with [Mozilla PlayDoh](https://github.com/mozilla/playdoh) (Django/Python)
 * [socket](http://socket.io/) communication to Meemoo apps on your own phone (or across the world)
+* [sharejs](http://sharejs.org/) collaborative editing
 * view/edit source for a module (like jsfiddle or jsdo.it)  
 * offline framework and modules
 
