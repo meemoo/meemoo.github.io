@@ -10,18 +10,18 @@ Meemoo is a framework for building creative web apps that are *hackable by desig
 Any app that can be described by a data-flow diagram can be built in Meemoo.
 Modules are web pages with a little bit of js that defines the inputs and outputs.
 
-<iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
-One use: [live animation](http://meemoo.org/blog/2012-02-12-live-animation-meemoo-vj/)
-
-![economic model screen shot](http://meemoo.org/images/Screen-shot-2012-01-25-friction-free.png)  
-Another (very different) use: [economic model](http://meemoo.org/blog/2012-01-24-friction-free-post-scarcity-creative-economies)
-
 We are seeking collaboration and contribution in the following fields:
 
 * app/module ideas
 * module/framework design 
 * UX and graphic design
 * community design
+
+<iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
+One use: [live animation](http://meemoo.org/blog/2012-02-12-live-animation-meemoo-vj/)
+
+![economic model screen shot](http://meemoo.org/images/Screen-shot-2012-01-25-friction-free.png)  
+Another (very different) use: [economic model](http://meemoo.org/blog/2012-01-24-friction-free-post-scarcity-creative-economies)
 
 Some specific ideas:
 --------------------
