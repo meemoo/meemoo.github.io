@@ -17,6 +17,13 @@ We are seeking collaboration and contribution in the following fields:
 * UX and graphic design
 * community design
 
+
+Apply March 26 - April 6: http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla
+---------------
+
+Serious applicants will make a demo Meemoo app, and include a link.
+
+
 <iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
 One use: [live animation](http://meemoo.org/blog/2012-02-12-live-animation-meemoo-vj/)
 
@@ -56,5 +63,7 @@ I'll be looking for people that can work closely with me for the summer on these
 1/4 to 1/2 of our time should be spent *using* the framework to make creative apps, and the rest getting into the nitty-gritty.
 
 The ideal candidate will have some combination of experience with *Python, JavaScript, and flow-based programming*, and a demonstrated ability to get up to speed with the other fields by the start.
+
+Serious applicants will make a Meemoo module or app, and include a link.
 
 Talk to me: [email](mailto:forrest@sembiki.com), [mailing list](https://groups.google.com/d/forum/meemoojs), [@forresto](http://twitter.com/forresto), or *forresto* on irc.freenode.net and irc.mozilla.org
