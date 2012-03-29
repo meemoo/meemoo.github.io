@@ -18,10 +18,10 @@ We are seeking collaboration and contribution in the following fields:
 * community design
 
 
-Apply March 26 - April 6: [GSOC](http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla)
+Apply March 26 - April 6 through [Mozilla's GSOC page](http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla)
 ---------------
 
-Serious applicants will make a new kind demo Meemoo app, and include a link.
+Serious applicants will make a new kind demo Meemoo app, and include source/link.
 
 
 <iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
