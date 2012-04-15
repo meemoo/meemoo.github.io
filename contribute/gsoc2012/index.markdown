@@ -17,13 +17,6 @@ We are seeking collaboration and contribution in the following fields:
 * UX and graphic design
 * community design
 
-
-Apply March 26 - April 6 through [Mozilla's GSOC page](http://www.google-melange.com/gsoc/org/google/gsoc2012/mozilla)
----------------
-
-Serious applicants will make a new kind demo Meemoo app, and include source/link.
-
-
 <iframe width="720" height="405" src="http://www.youtube.com/embed/T_tCyYGLWKM?rel=0" frameborder="0" allowfullscreen></iframe>  
 One use: [live animation](http://meemoo.org/blog/2012-02-12-live-animation-meemoo-vj/)
 

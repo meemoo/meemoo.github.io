@@ -3,6 +3,10 @@ layout: default
 title: Contribute!
 ---
 
+Suggestions and feature requests: https://getsatisfaction.com/sembiki/products/sembiki_meemoo
+
+Our issue tracker is here: https://github.com/meemoo/iframework/issues
+
 We are seeking collaboration and contribution in the following fields:
 
 * app/module ideas
