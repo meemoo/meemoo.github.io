@@ -23,6 +23,6 @@ Lev Vygotsky said that learning happens in the space between what can do by ours
 Feel free to read the full version of the thesis:  
 [![Meemoo: hackable web app framework thesis cover](http://meemoo.org/images/thesis-cover.png)](http://meemoo.org/files/ForrestOliphant-MeemooThesis-web.pdf) (1.6MB PDF)
 
-Since submitting the paper I have been happy to get back into the code. The biggest change to the UX has been with the wires, adding draggable plug ends. You can see this in action on [the Processing example](http://meemoo.org/iframework/#/example/processing), dragging a wire from one reflow module to the other.
+<img src="http://meemoo.org/images/Screen-shot-2012-04-23-plugends.png" alt="draggable plug ends" style="float:right;margin-left:1em;"/>Since submitting the paper I have been happy to get back into the code. The biggest change to the UX has been with the wires, adding draggable plug ends. You can see this in action on [the Processing example](http://meemoo.org/iframework/#/example/processing), dragging a wire from one reflow module to the other.
 
 Meemoo has also accepted it's first code from another developer! This is a big moment for any open source project. [Automata](http://automata.cc/) added the foundations of a history stack, so if you delete a module you can press ctrl-z to undo the deletion.
