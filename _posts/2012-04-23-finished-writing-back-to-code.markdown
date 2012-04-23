@@ -12,7 +12,7 @@ Meemoo started at a prototype in the January 2011 Interactive Cinema class at Me
 
 As this project progressed, I wanted the videos to be in a different browser widow than the controllers. I made a text format for control signals to be sent between windows with window.postMessage(). This browser function could only be used to send strings, but around the middle of the year (Gecko 6.0) the function expanded to allow all kinds of data to be passed from window to window. At this point the *web video remixer* idea became the *web remixer remixer* (the metamedium metaremixer).
 
-I realized that this idea could encompass most of my web/interactive experiments, so I decided to make it my thesis project. In the written thesis I looked at design for hackability, and how that could be positive for education. 
+I realized that this idea could encompass most of my web/interactive experiments, so I made it my thesis project. In the written thesis I looked at *design for hackability*, and how that could be positive for education. 
 
 Other services for learning code (like Code Academy) start with "this is a var." You complete the lessons, get badges, and maybe get a fundamental concept of programming, but what can you really do with it? Meemoo starts with "this is a stop motion application." Use it as is, or look under the hood and hack it if you like. I think that this design for hackability feeds curiosity and encourages learning in a more natural way, much closer to how I and many other actually learned coding.
 
