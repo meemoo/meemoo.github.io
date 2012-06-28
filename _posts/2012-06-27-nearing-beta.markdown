@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Finished writing, now back to the code
+title: Nearing beta
 tags: 
 - progress
 - ux
@@ -12,7 +12,7 @@ tags:
 
 I presented Meemoo at the [Masters of Aalto](http://moa.aalto.fi/2012/en/masters/forrest-oliphant/) show and [Media Lab Helsinki Demo Day](http://mlab.taik.fi/news/2012/05/21/media-lab-demo-day-23-5-2012-programme-here/). Here are some animations made by event-goers:
 
-![hats](http://i.imgur.com/nLFKo.gif) ![smooch](http://i.imgur.com/y2GKs.gif) ![not too sure about this](http://i.imgur.com/Nlp3F.gif)
+![hats](http://i.imgur.com/nLFKo.gif) ![smooch](http://i.imgur.com/y2GKs.gif)
 
 At these events I had the chance to do some (covert) user testing, and see how people interact with it on their first try. I noticed that many people's first interaction is disconnecting all the wires. Then they seem surprised that it doesn't do anything! Obviously this points to a design flaw that I need to address. The wires are colorful and draw attention before the buttons that send data over the wires. A quick, clear, guided tutorial to introduce basic Meemoo concepts will go a long way.
 
