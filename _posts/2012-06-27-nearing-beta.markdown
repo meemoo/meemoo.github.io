@@ -20,12 +20,12 @@ One of my thesis evaluators works for Nokia Design, and invited me to present th
 
 I have been working on the modules and instructions for a challenge for Mozilla Summer Code Party. The [Meemoo challenge](https://wiki.mozilla.org/Webmakers/Projects/MeemooClock-DIY) will present two clock apps for participants to experiment and hack. [My own hack](http://meemoo.org/iframework/#gist/2930234) of the concept is pretty far out.
 
-Some major changes:
+Some major changes: <img style="float:right;margin-left:10px;width:300px;height:300px" src="http://meemoo.org/images/math-demo.png" />
 
 * Module library is sorted into collapsible categories for easier navigation
 * Drag modules library to position in graph
 * New modules:
-    * Util: color-hsla, color-rgba, math
+    * Util: color-hsla, color-rgba, math (this module is especially powerful, and was a big part of the image made with [this demo app](http://meemoo.org/iframework/#gist/3002307))
     * Image: text, transform, combine
     * Draw: rectangle, circle
 + Save app to browser's localStorage (private)
