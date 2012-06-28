@@ -22,13 +22,13 @@ I have been working on the modules and instructions for a challenge for Mozilla 
 
 Some major changes:
 
-+ Module library is sorted into collapsible categories for easier navigation
-+ Drag modules library to position in graph
-+ New modules:
-++ Util: color-hsla, color-rgba, math
-++ Image: text, transform, combine
-++ Draw: rectangle, circle
-+ Save apps to browser's localStorage (private)
-+ Save apps to [gist](https://gist.github.com/) (public)
+* Module library is sorted into collapsible categories for easier navigation
+* Drag modules library to position in graph
+* New modules:
+    * Util: color-hsla, color-rgba, math
+    * Image: text, transform, combine
+    * Draw: rectangle, circle
++ Save app to browser's localStorage (private)
++ Save app to [gist](https://gist.github.com/) (public)
 
 Many of these features have been on the [to-do list](https://github.com/meemoo/iframework/issues) for some time. Behind the scenes there was a pretty major refactoring of code as well. With these done, it will be much easier to start making the bigger changes that are coming...
