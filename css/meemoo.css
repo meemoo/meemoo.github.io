@@ -1,6 +1,6 @@
 body {
   max-width: 750px;
-  margin: 0 auto 75px;
+  margin: 0 auto 25px;
   font-family: Georgia, 'Times New Roman', serif;
   color: #62504c;
   background-color: #FDFDFA;
@@ -18,8 +18,9 @@ h1 {
   border-bottom: #62504c 1px dotted;
   text-align: center;
   font-weight: 100;
-  font-size: 37px;
-  line-height: 40px;
+  font-size: 50px;
+  line-height: 53px;
+  margin: 20px 0;
 }
 .post h1,
 h2 {
@@ -42,21 +43,24 @@ p, ol, ul {
   font-size: 17px;
   line-height: 30px;
 }
+footer, footer h2,
 nav {
   text-align: center;
 }
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  font-size: 17px;
-  display: inline-block;
-  margin: 0 1em;
-  padding: 0;
-  vertical-align: middle;
-}
+  footer ul,
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+    footer ul li,
+    nav ul li {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0 1em;
+      padding: 0;
+      vertical-align: middle;
+    }
 
 .clear { clear: both; }
 .right { float: right; }

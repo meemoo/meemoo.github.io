@@ -25,16 +25,16 @@
   
   <header>
     <h1>
-      Meemoo: hackable web apps
+      Meemoo hackable web apps
     </h1>
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/iframework/">Demo</a></li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="http://getsatisfaction.com/sembiki">Feedback</a></li>
         <li><a href="https://github.com/meemoo">Source</a></li>
         <li><a href="/#support">Support</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li>
           <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://meemoo.org/"></a>
           <noscript>
@@ -45,11 +45,20 @@
     </nav>
   </header>
   
-  
-  
   <div class="page clear">
     {{ content }}
   </div>
+
+  <footer>
+    <h2><a id="contact"></a>Get in touch!</h2>
+    <ul>
+      <li><a href="https://github.com/meemoo">Github</a></li>
+      <li><a href="https://www.facebook.com/meemooapp">Facebook</a></li>
+      <li><a href="https://twitter.com/forresto">Twitter</a></li>
+      <li><a href="https://getsatisfaction.com/sembiki">Feedback</a></li>
+      <li id="writeme"></li>
+    <ul>
+  </footer>
   
   
 
@@ -67,21 +76,16 @@
 
 
 <script type="text/javascript">
-  var is_ssl = ("https:" == document.location.protocol);
-  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
-  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type="text/javascript">
-  var feedback_widget_options = {};
-
-  feedback_widget_options.display = "overlay";  
-  feedback_widget_options.company = "sembiki";
-  feedback_widget_options.placement = "left";
-  feedback_widget_options.color = "#222";
-  feedback_widget_options.style = "idea";
-  
-  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+  (function() {
+    var s = "=b!isfg>#nbjmup;gpssftuAtfncjlj/dpn@tvckfdu>tjuf&31jorvjsz#?gpssftuAtfncjlj/dpn=0b?";
+    var link = "";
+    for (i=0; i<s.length; i++) {
+      link += String.fromCharCode(s.charCodeAt(i)-1); 
+    }
+    console.log(link);
+    link = link.replace("site%20inquiry", "Meemoo");
+    document.getElementById('writeme').innerHTML = link;
+  })();
 </script>
 
 </body>
