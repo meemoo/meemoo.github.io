@@ -79,3 +79,16 @@ img.border,
 #page-navigation {
   
 }
+
+img.shot {
+    margin-top: 20px;
+    border: 1px #62504c dotted;
+}
+
+img.shot:hover {
+    border: 1px #62504d solid;
+}
+
+.span4 p {
+    font-size: 11pt;
+}
