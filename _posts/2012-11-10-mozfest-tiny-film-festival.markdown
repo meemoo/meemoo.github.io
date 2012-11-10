@@ -28,6 +28,8 @@ Just had our mozfest animation workshop, here is what we made!
 
 ![Smile!!!](http://i.imgur.com/Zz4CV.gif) Smile!!!
 
-![prancy pony @ncasenmare](http://i.imgur.com/PVV2g.gif) prancy pony @ncasenmare 
+![prancy pony @ncasenmare](http://i.imgur.com/PVV2g.gif)  
+prancey pony @ncasenmare 
 
-![papercraft #firefox loves the world @forresto](http://i.imgur.com/YO1Ae.gif) papercraft #firefox loves the world @forresto
+![papercraft #firefox loves the world @forresto](http://i.imgur.com/YO1Ae.gif)  
+papercraft #firefox loves the world @forresto
