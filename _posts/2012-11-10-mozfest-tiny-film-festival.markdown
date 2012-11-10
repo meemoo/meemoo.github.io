@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: MozFest call for video help
+title: MozFest tiny film festival :-)
 tags: 
 - gif
 - animation
