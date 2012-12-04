@@ -10,21 +10,13 @@ tags:
 
 My work on web media wiring has come a long way in the past year. Most of my module development effort has been focused on 2D canvas animation and effects. Each module that I create can be recombined with the older ones, expanding Meemoo's potential exponentially. 
 
-[![circle-particle-trail-random](http://farm8.staticflickr.com/7112/8168190144_237e395df6_m.jpg)](http://www.flickr.com/photos/forresto/8168190144/in/set-72157629174562852)
-[![circle-particle-trail](http://farm8.staticflickr.com/7250/8168152679_2d0d202e83_m.jpg)](http://www.flickr.com/photos/forresto/8168152679/in/set-72157629174562852)
-[![white](http://farm9.staticflickr.com/8059/8168739188_e300411ebf_m.jpg)](http://www.flickr.com/photos/forresto/8168739188/in/set-72157629174562852)
-[![eye](http://farm8.staticflickr.com/7266/8168700291_9769d3b493_m.jpg)](http://www.flickr.com/photos/forresto/8168700291/in/set-72157629174562852)
-[![thirty-six](http://farm9.staticflickr.com/8209/8213066570_0c0fc44b95_m.jpg)](http://www.flickr.com/photos/forresto/8213066570/in/set-72157629174562852)
-[![nine](http://farm9.staticflickr.com/8070/8211978843_3b62391018_m.jpg)](http://www.flickr.com/photos/forresto/8211978843/in/set-72157629174562852)  
-/Experiments with circle → particles → trails, changing color, size, and particle system variables./
-
 ## Module development
 
-HTML5 video player (```meemoo:video/player```). Because of security restrictions, if the video is coming from another domain you can't manipulate the image data (unless the server is CORS-enabled, which is rare). The workaround is to download the video to the local machine, and then select the file.
+HTML5 video player (```meemoo:video/player```). Because of security restrictions, if the video is coming from another domain you can't manipulate the image data (unless the server is CORS-enabled, which is rare). The workaround is to download the video to the local machine, and then select the file in the module.
 
 Tile (```meemoo:image/tile```) tiles an image, with options for x/y mirroring for seamless kaleidoscope-like images.
 
-Grid (```meemoo:image/grid```) This module comes from [earlier experiments](http://sembiki.com/megacam/) in Flash that were inspired by [Run Lola Run Lola Run Lola Run Lola Run](http://vimeo.com/285629).
+Grid (```meemoo:image/grid```) puts each frame of video into a grid, which animates once the grid is full. This module comes from [earlier experiments](http://sembiki.com/megacam/) in Flash that were inspired by [Run Lola Run Lola Run Lola Run Lola Run](http://vimeo.com/285629).
 
 Particles (```meemoo:image/particles```) is the most complicated module so far. You can input an image or animation that will become a particle system, for effects like swarms, branches, smoke, and fire.
 
@@ -39,7 +31,13 @@ Chroma/Luma Key (```meemoo:image/chromakey```, ```meemoo:image/lumakey```) is fu
 <a href="http://www.flickr.com/photos/forresto/8243757154/" title="cam warp feedback by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8061/8243757154_5cdaeacbd2_z.jpg" width="640" height="359" alt="cam warp feedback"></a>  
 ([more photos](http://www.flickr.com/search/?q=vj.js+mozfest&w=37996589754%40N01&z=m))
 
-Getting the MozFest party VJ gig was a big motivator for working on these new modules. I used all of these modules to wire together live visuals and animation at MozFest's party at the London Film Museum. The music was live-coded by [Slub](http://slub.org/).
+Getting the MozFest party VJ gig was a big motivator for working on these new modules. I used all of these modules to wire together three hours of live visuals and animation at MozFest's party at the London Film Museum. The music was live-coded by [Slub](http://slub.org/).
+
+It was great to be able to play with and wire together many different techniques that I have been experimenting with through the years: stop-motion animation, kaleidoscopes, video feedback loops, slit-scan, particle systems, and all the combinations between.
+
+Before the gig I imagined that I was the only VJ in London going from shop to shop seaching for a glue stick. I was also probably the only VJ that was choosing to work within the limitations of JavaScript and HTML5. 
+
+The nice thing about Meemoo is that its capabilities can expand with the broswer's capabilities, which have exploded in the time since I started the project. I hope to attract more HTML5 and creative coding brains to the project, since there is much more potential than this one developer can explore.
 
 ## MakeyMakey + Meemoo
 
@@ -47,6 +45,16 @@ My [animation workshop](http://meemoo.org/blog/2012-11-10-mozfest-tiny-film-fest
 
 <a href="http://www.flickr.com/photos/forresto/8242725307/" title="Mozfest animation studio setup by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8342/8242725307_e1619393ef_z.jpg" width="640" height="480" alt="Mozfest animation studio setup"></a>
 
-I talked and hacked for a while with Eric Rosenbaum, one of MakeyMakey's designers. Our projects have similar goals: to encourage hacking and experimentation with zero installing and configuration. The projects compliment each other well, making it very simple to add physical inputs to Meemoo apps. 
+<a href="http://www.flickr.com/photos/forresto/8242755999/" title="MakeyMakey + Meemoo by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8342/8242755999_2fa8ee8929.jpg" width="373" height="500" alt="MakeyMakey + Meemoo" style="float:right;margin-left:10px;"></a> I talked and hacked for a while with Eric Rosenbaum, one of MakeyMakey's designers. Our projects have similar goals: to encourage hacking and experimentation with zero installing and configuration. The projects compliment each other well, making it very simple to add physical inputs to Meemoo apps. 
 
-<a href="http://www.flickr.com/photos/forresto/8242755999/" title="MakeyMakey + Meemoo by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8342/8242755999_2fa8ee8929.jpg" width="373" height="500" alt="MakeyMakey + Meemoo" style="float:right;margin-left:10px;"></a> I put together this clogging/tap dance visualizer in one hour with MakeyMakey + Meemoo. The shoes have foil on the heels and toes, and the foil on the mat is connected to the ground. Each of the four switches triggers a different particle system. It would be fun to connect these triggers to different sounds as well... I guess I need to get to work on audio modules!
+I put together this clogging/tap dance visualizer in one hour with MakeyMakey + Meemoo. The shoes have foil on the heels and toes, and the foil on the mat is connected to the ground. Each of the four switches triggers a different particle system. It would be fun to connect these triggers to different sounds as well... I guess I need to get to work on audio modules!
+
+## Particle experiments
+
+[![circle-particle-trail-random](http://farm8.staticflickr.com/7112/8168190144_237e395df6_m.jpg)](http://www.flickr.com/photos/forresto/8168190144/in/set-72157629174562852)
+[![circle-particle-trail](http://farm8.staticflickr.com/7250/8168152679_2d0d202e83_m.jpg)](http://www.flickr.com/photos/forresto/8168152679/in/set-72157629174562852)
+[![white](http://farm9.staticflickr.com/8059/8168739188_e300411ebf_m.jpg)](http://www.flickr.com/photos/forresto/8168739188/in/set-72157629174562852)
+[![eye](http://farm8.staticflickr.com/7266/8168700291_9769d3b493_m.jpg)](http://www.flickr.com/photos/forresto/8168700291/in/set-72157629174562852)
+[![thirty-six](http://farm9.staticflickr.com/8209/8213066570_0c0fc44b95_m.jpg)](http://www.flickr.com/photos/forresto/8213066570/in/set-72157629174562852)
+[![nine](http://farm9.staticflickr.com/8070/8211978843_3b62391018_m.jpg)](http://www.flickr.com/photos/forresto/8211978843/in/set-72157629174562852)  
+_Experiments with circle → particles → trails, changing color, size, and particle system variables._
