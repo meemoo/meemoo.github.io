@@ -16,21 +16,24 @@ HTML5 video player (```meemoo:video/player```). Because of security restrictions
 
 Tile (```meemoo:image/tile```) tiles an image, with options for x/y mirroring for seamless kaleidoscope-like images.
 
-<a href="http://www.flickr.com/photos/forresto/8242681705/" title="firefox flicks video → tile by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8207/8242681705_07ba84c4bd_z.jpg" width="640" height="360" alt="firefox flicks video → tile"></a>
+<a href="http://www.flickr.com/photos/forresto/8242681705/" title="firefox flicks video → tile by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8207/8242681705_07ba84c4bd_z.jpg" width="640" height="360" alt="firefox flicks video → tile"></a>  
+_firefox flicks video → tile_
 
 Grid (```meemoo:image/grid```) puts each frame of video into a grid, which animates once the grid is full. This module comes from [earlier experiments](http://sembiki.com/megacam/) in Flash that were inspired by [Run Lola Run Lola Run Lola Run Lola Run](http://vimeo.com/285629).
 
 Particles (```meemoo:image/particles```) is the most complicated module so far. You can input an image or animation that will become a particle system, for effects like swarms, branches, smoke, and fire.
 
-Trails (```meemoo:image/trails```) draws to its canvas without clearing, leaving the trails of moving objects. I made this modules because initially I forgot to clear the canvas in Particles, and got some nice effects. At first I thought about adding a "leave trails" option to Particles, but realized that this effect could be useful in combination with other modules. It is nice to be able to make a code idea into a module for instant reuse.
+Trails (```meemoo:image/trails```) draws to its canvas without clearing, leaving the trails of moving objects. Initially I forgot to clear the canvas when coding Particles, and got some nice effects. At first I thought about adding a "leave trails" option to Particles, but realized that this effect could be useful in combination with other modules. It is nice to be able to make a code idea into a module for instant reuse.
 
-<a href="http://www.flickr.com/photos/forresto/8243756056/" title="particles → trails → tile by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8200/8243756056_e61c8ff158_z.jpg" width="640" height="480" alt="particles → trails → tile"></a>
+<a href="http://www.flickr.com/photos/forresto/8243756056/" title="particles → trails → tile by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8200/8243756056_e61c8ff158_z.jpg" width="640" height="480" alt="particles → trails → tile"></a>  
+_particles → trails → tile_
 
 Animation (```meemoo:variable/animation```) is a new kind of module that I'm experimenting with. It behaves like an array of canvases, and can be sent to the particles module. I will make it possible to save/load animations as a flat spritesheet image. 
 
 Chroma/Luma Key (```meemoo:image/chromakey```, ```meemoo:image/lumakey```) is fun for making transparent backgrounds for animations. This module has potential to be made faster with WebGL (Seriously.js), but I wanted to get it working in the 2D canvas context first.
 
-<a href="http://www.flickr.com/photos/forresto/8242685657/" title="firefox worm space swarm by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8064/8242685657_c04ca0c91a_z.jpg" width="640" height="360" alt="firefox worm space swarm"></a>
+<a href="http://www.flickr.com/photos/forresto/8242685657/" title="firefox worm space swarm by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8064/8242685657_c04ca0c91a_z.jpg" width="640" height="360" alt="firefox worm space swarm"></a>  
+_papercraft → lumakey → animation → particles_
 
 ## Mozfest party, Meemoo as vj.js
 
@@ -39,7 +42,7 @@ Getting the MozFest party VJ gig was a big motivator for working on these new mo
 It was great to be able to play with and wire together many different techniques that I have been experimenting with through the years: stop-motion animation, kaleidoscopes, video feedback loops, slit-scan, particle systems, and all the combinations between.
 
 <a href="http://www.flickr.com/photos/forresto/8243757154/" title="cam warp feedback by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8061/8243757154_5cdaeacbd2_z.jpg" width="640" height="359" alt="cam warp feedback"></a>  
-([more photos](http://www.flickr.com/search/?q=vj.js+mozfest&w=37996589754%40N01&z=m))
+_cam → feedback loop_ ([more photos](http://www.flickr.com/search/?q=vj.js+mozfest&w=37996589754%40N01&z=m))
 
 Before the gig I imagined that I was the only VJ in London going from shop to shop seaching for a glue stick. I was also probably the only VJ that was choosing to work within the limitations of JavaScript and HTML5. 
 
