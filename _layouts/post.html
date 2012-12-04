@@ -6,15 +6,6 @@ layout: default
   <h1><a href="{{ page.url }}" style="text-decoration:none;">{{ page.title }}</a></h1>
   <p>{{ page.date | date_to_string }}</p>
   {{ content }}
-
-  {% if page.tags %} 
-  <ul class="tags">
-    {% for tag in page.tags %}
-    <li class="tag">{{ tag }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-  
 </div>
 
 <div id="page-navigation"> 
@@ -33,6 +24,15 @@ layout: default
     </div> 
   <div class="clear">&nbsp;</div> 
 </div>
+
+{% if page.tags %} 
+<ul class="tags">
+  {% for tag in page.tags %}
+  <li class="tag">{{ tag }}</li>
+  {% endfor %}
+</ul>
+<div class="clear">&nbsp;</div> 
+{% endif %}
  
 <h2>Discussion</h2>
 <div id="disqus_thread"></div>
