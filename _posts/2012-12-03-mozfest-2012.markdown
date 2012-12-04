@@ -39,7 +39,7 @@ _papercraft → lumakey → animation → particles_
 
 I used all of these modules to wire together three hours of live visuals and animation at MozFest's party at the London Film Museum. The music was live-coded by [Slub](http://slub.org/). Getting this gig was a big motivator for working on and refining these modules.
 
-It was great to be able to play with and wire together many different techniques that I have been experimenting with through the years as performance: stop-motion animation, kaleidoscopes, video feedback loops, slit-scan, particle systems, and all the combinations between.
+It was great to be able to play with and wire together many different techniques that I have been experimenting with through the years: stop-motion animation, kaleidoscopes, video feedback loops, slit-scan, particle systems, and all the combinations between, and to do so as performance.
 
 <a href="http://www.flickr.com/photos/forresto/8243757154/" title="cam warp feedback by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8061/8243757154_5cdaeacbd2_z.jpg" width="640" height="359" alt="cam warp feedback"></a>  
 _cam → feedback loop_ ([more photos](http://www.flickr.com/search/?q=vj.js+mozfest&w=37996589754%40N01&z=m))
@@ -57,6 +57,10 @@ My [animation workshop](http://meemoo.org/blog/2012-11-10-mozfest-tiny-film-fest
 <a href="http://www.flickr.com/photos/forresto/8242755999/" title="MakeyMakey + Meemoo by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8342/8242755999_2fa8ee8929.jpg" width="373" height="500" alt="MakeyMakey + Meemoo" style="float:right;margin-left:10px;"></a> I talked and hacked for a while with Eric Rosenbaum, one of MakeyMakey's designers. Our projects have similar goals: to encourage hacking and experimentation with zero installing and configuration. The projects compliment each other well, making it very simple to add physical inputs to Meemoo apps. 
 
 I put together this clogging/tap dance visualizer in one hour with MakeyMakey + Meemoo. The shoes have foil on the heels and toes, and the foil on the mat is connected to the ground. Each of the four switches triggers a different particle system, and it looks like fireworks when I dance. It would be fun to connect these triggers to different sounds as well... I guess I need to get to work on audio modules!
+
+## My MozFest 2012 conclusion in 140 characters
+
+> I got so much inspiration and encouragement this weekend, and hope that I redistributed some % of that back out. #mozfest was serious fun. 
 
 ## Particle experiments
 
