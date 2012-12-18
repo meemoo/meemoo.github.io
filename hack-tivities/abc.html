@@ -21,6 +21,11 @@
         /* This is a trick to make no space between the letters. */
         float: left;
       }
+      /* Get big on click. */
+      img:active {
+        width: 300px;
+        height: 300px;
+      }
       br {
         /* Because the images are floated, we need this to make line breaks. */
         clear: both;
@@ -47,7 +52,7 @@
     <img alt="L" src="http://i.imgur.com/pOmBm.gif" />
     <img alt="L" src="http://i.imgur.com/pOmBm.gif" />
     <img alt="O" src="http://i.imgur.com/plhsf.gif" />
-    <img alt="_" src="http://i.imgur.com/UJO1E.gif" />
+    <img alt="_" src="http://i.imgur.com/6x9UZ.gif" />
     <!-- <br /> will make a line break between words, or use the "_" space image. -->
     <br />
     <img alt="W" src="http://i.imgur.com/6wMBe.gif" />
@@ -57,7 +62,6 @@
     <img alt="D" src="http://i.imgur.com/42LPn.gif" />
     <img alt="!" src="http://i.imgur.com/SCbfU.gif" />
 
-    <br />
     <br />
     <br />
 
@@ -70,38 +74,40 @@
       <img alt="M" src="http://i.imgur.com/UCrjB.gif" />ake your own stop-motion alphabet with <a href="http://meemoo.org">meemoo.org</a>.
     </p>
 
-    <img alt="A" src="http://i.imgur.com/9WUND.gif" />
-    <img alt="B" src="http://i.imgur.com/dU8ZE.gif" />
-    <img alt="C" src="http://i.imgur.com/uSJak.gif" />
-    <img alt="D" src="http://i.imgur.com/42LPn.gif" />
-    <img alt="E" src="http://i.imgur.com/x8PKS.gif" />
-    <img alt="F" src="http://i.imgur.com/jTXF2.gif" />
-    <img alt="G" src="http://i.imgur.com/kbg2o.gif" />
-    <img alt="H" src="http://i.imgur.com/Ml61M.gif" />
-    <img alt="I" src="http://i.imgur.com/5kqts.gif" />
-    <img alt="J" src="http://i.imgur.com/Hfvf4.gif" />
-    <img alt="K" src="http://i.imgur.com/WFoPn.gif" />
-    <img alt="L" src="http://i.imgur.com/pOmBm.gif" />
-    <img alt="M" src="http://i.imgur.com/UCrjB.gif" />
-    <img alt="N" src="http://i.imgur.com/xTXOn.gif" />
-    <img alt="O" src="http://i.imgur.com/plhsf.gif" />
-    <img alt="P" src="http://i.imgur.com/fLuKk.gif" />
-    <img alt="Q" src="http://i.imgur.com/lYbR0.gif" />
-    <img alt="R" src="http://i.imgur.com/7jQDE.gif" />
-    <img alt="S" src="http://i.imgur.com/gAC4d.gif" />
-    <img alt="T" src="http://i.imgur.com/vp9uZ.gif" />
-    <img alt="U" src="http://i.imgur.com/g01U9.gif" />
-    <img alt="V" src="http://i.imgur.com/KmFGB.gif" />
-    <img alt="W" src="http://i.imgur.com/6wMBe.gif" />
-    <img alt="X" src="http://i.imgur.com/g0RRy.gif" />
-    <img alt="Y" src="http://i.imgur.com/0QR2j.gif" />
-    <img alt="Z" src="http://i.imgur.com/e8yzG.gif" />
-    <img alt="Ä" src="http://i.imgur.com/0hrFe.gif" />
-    <img alt="Ö" src="http://i.imgur.com/DOdXZ.gif" />
-    <img alt="_" src="http://i.imgur.com/6x9UZ.gif" />
-    <img alt="." src="http://i.imgur.com/Ttxjb.gif" />
-    <img alt="!" src="http://i.imgur.com/SCbfU.gif" />
-    <img alt="?" src="http://i.imgur.com/o7l06.gif" />
+    <div id="alphabet">
+      <img alt="A" src="http://i.imgur.com/9WUND.gif" />
+      <img alt="B" src="http://i.imgur.com/dU8ZE.gif" />
+      <img alt="C" src="http://i.imgur.com/uSJak.gif" />
+      <img alt="D" src="http://i.imgur.com/42LPn.gif" />
+      <img alt="E" src="http://i.imgur.com/x8PKS.gif" />
+      <img alt="F" src="http://i.imgur.com/jTXF2.gif" />
+      <img alt="G" src="http://i.imgur.com/kbg2o.gif" />
+      <img alt="H" src="http://i.imgur.com/Ml61M.gif" />
+      <img alt="I" src="http://i.imgur.com/5kqts.gif" />
+      <img alt="J" src="http://i.imgur.com/Hfvf4.gif" />
+      <img alt="K" src="http://i.imgur.com/WFoPn.gif" />
+      <img alt="L" src="http://i.imgur.com/pOmBm.gif" />
+      <img alt="M" src="http://i.imgur.com/UCrjB.gif" />
+      <img alt="N" src="http://i.imgur.com/xTXOn.gif" />
+      <img alt="O" src="http://i.imgur.com/plhsf.gif" />
+      <img alt="P" src="http://i.imgur.com/fLuKk.gif" />
+      <img alt="Q" src="http://i.imgur.com/lYbR0.gif" />
+      <img alt="R" src="http://i.imgur.com/7jQDE.gif" />
+      <img alt="S" src="http://i.imgur.com/gAC4d.gif" />
+      <img alt="T" src="http://i.imgur.com/vp9uZ.gif" />
+      <img alt="U" src="http://i.imgur.com/g01U9.gif" />
+      <img alt="V" src="http://i.imgur.com/KmFGB.gif" />
+      <img alt="W" src="http://i.imgur.com/6wMBe.gif" />
+      <img alt="X" src="http://i.imgur.com/g0RRy.gif" />
+      <img alt="Y" src="http://i.imgur.com/0QR2j.gif" />
+      <img alt="Z" src="http://i.imgur.com/e8yzG.gif" />
+      <img alt="Ä" src="http://i.imgur.com/0hrFe.gif" />
+      <img alt="Ö" src="http://i.imgur.com/DOdXZ.gif" />
+      <img alt="_" src="http://i.imgur.com/6x9UZ.gif" />
+      <img alt="." src="http://i.imgur.com/Ttxjb.gif" />
+      <img alt="!" src="http://i.imgur.com/SCbfU.gif" />
+      <img alt="?" src="http://i.imgur.com/o7l06.gif" />
+    </div>
 
     <!-- Here is the whole alphabet. Copy and paste letters from here to make your message. This is a copy of the alphabet in a comment, so it won't show up on the page.
 
