@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Simple live code editor; JavaScript turtle graphics to SVG
+title: Live edit JavaScript turtle graphics to SVG
 tags: 
 - turtle graphics
 - svg
