@@ -34,6 +34,6 @@ The editor has a few features that I think are nice:
 * Uses [Ace](http://ace.ajax.org/), which checks the code with jsHint before attempting to evaluate it.
 * Uses a worker to evaluate the script, so `while(true){}` makes the worker hang, not the page. This method is inspired by [John Resig's talk](http://ejohn.org/blog/talk-khan-academy-computer-science/) about Khan' editor.
 * Compresses and saves code for sharing in the URL hash, no server or API needed. I first saw this method in [Mr.doob's html editor](https://github.com/mrdoob/htmleditor).
-* Embeds the code and a link to the editor in a <code>&lt;-- comment --&gt;</code> in the exported SVG.
+* Embeds the code and a link to the editor in a <code>&lt;!-- comment --&gt;</code> in the exported SVG.
 
 It is pretty easy to piece together coding toys and tools like this, focused on a certain task. From here I'm going to figure out how to do live coding like this directly in Meemoo.
