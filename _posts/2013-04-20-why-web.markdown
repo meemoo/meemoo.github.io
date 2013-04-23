@@ -1,0 +1,41 @@
+--- 
+layout: post
+title: Why web?
+tags: 
+- web
+- webby
+- webness
+- openart
+---
+
+At the Open(Art) presentations on March 4th one of the Eyebeam fellows asked why I'm making Meemoo for the web, when we can already do the same things in Photoshop or other apps. I'm not sure how well I answered, but there a few answers that I'd like to put in words.
+
+## Everest / Demoscene
+
+The easiest answer is "because it's there." 
+
+<a href="http://www.flickr.com/photos/yewmun/1938038703/" title="Magical Everest by Mun Mun, on Flickr"><img src="http://farm3.staticflickr.com/2365/1938038703_bb49ede447_z.jpg?zz=1" width="640" height="426" alt="Magical Everest"></a>
+
+I had used data flow environments (Pure Data and Quartz Composer) for some projects. I wanted to combine the modularity, speed, and live feedback workflow that these environments offer with the rapidly expanding capabilities of the browser. Programming in data flow environments feels different than text-based coding. I would wager that they use different parts of the brain. Building this system has allowed me to dive deeper my own programming practice with both paradigms.
+
+## Access / media hacking in lockdown
+
+Not everybody has Photoshop. Standards-based web browsers are everywhere. 
+
+Not everybody has access to systems where it is possible to install a coding environment. You can use, build, share, and hack Meemoo apps just by visting a url. This is a huge reduction in friction compared to installing a programming envirnonment or app.
+
+<a href="http://www.flickr.com/photos/27814743@N00/4809846315/" title="iPad Kiosk Lock by kemperbark, on Flickr"><img src="http://farm5.staticflickr.com/4095/4809846315_08fd0a27f0_z.jpg" width="640" height="452" alt="iPad Kiosk Lock"></a>
+
+Making web-based programming environments does a nice end-run around limitations that iOS places on native apps, that they can't download and execute scripts. Mobile Safari can do that though; it would be suicide to lock Mobile Safari down to only running scripts from certain sites. 
+
+## Design for Hackability
+
+Photoshop is designed to emulate the physical tools of photo and graphic manipulation. This design made sense for the first users, who were coming from the darkroom and physical cut-and-paste design. 
+
+<a href="http://www.flickr.com/photos/irawandhanikamarga/2982281565/"><img alt="as real as it gets... by Bates141 Jakarta" src="http://farm4.staticflickr.com/3055/2982281565_65ae45517e_z.jpg"></a>
+
+But web media is much more than static images. To design a creative platform for interactive media and web art, it is fruitful to explore different approaches.
+
+## Modular code design
+
+It takes a lot of boilerplate code to do basic things in creative coding projects, like getting an image from a webcam. By making a "cam" module I can easily plug it in anywhere in my projects that takes an image. Every module that I add to the system can be combined with the existing modules, opening exponentially increasing potential for exploration... and we're back to Everest.

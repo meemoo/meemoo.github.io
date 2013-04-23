@@ -23,7 +23,7 @@ LOGO was the first programming language [designed for kids](http://www.amazon.co
 
 At first I was doing the save-file/change-window/refresh-browser dance for every change, but tools like Khan's editor and [Mozilla Thimble](https://thimble.webmaker.org/p/fyxg/edit) have given me the expectation that my creative coding should have immediate feedback. So I set out to make my own editor.
 
-[![LASER TURTLE](http://meemoo.org/images/LASER-TURTLE.png)](http://forresto.github.com/turtle-svg/#code/jY7LDoIwEEX3/Yq7LIlIwWCMRFcuXfoDDZliEyimlLow/LsFNUaN0d2cM3ceSYKdlWdIWCp722lP6E6ypFjputamQrCe1sxLi46qhozbk6ncERukecFUb0qnW4PeaMe1IytHjHBhgFZ4KmwhbhpvYcRIo2JqWC7mWX6HrynFX175Ff9n6cAG1rSeDi1fiBkyEazrrRk5WQWY5pah+Dz+aF0B) 
+[![LASER TURTLE](http://meemoo.org/images/LASER-TURTLE.png)](http://forresto.github.io/turtle-svg/#code/jY7LDoIwEEX3/Yq7LIlIwWCMRFcuXfoDDZliEyimlLow/LsFNUaN0d2cM3ceSYKdlWdIWCp722lP6E6ypFjputamQrCe1sxLi46qhozbk6ncERukecFUb0qnW4PeaMe1IytHjHBhgFZ4KmwhbhpvYcRIo2JqWC7mWX6HrynFX175Ff9n6cAG1rSeDi1fiBkyEazrrRk5WQWY5pah+Dz+aF0B) 
 *Shoutout to [Martin Schneider](https://github.com/craftoid) for the code contributions.*
 
 <a href="http://www.flickr.com/photos/forresto/8447807698/" title="cross-folded by fo.ol, on Flickr"><img src="http://farm9.staticflickr.com/8373/8447807698_d61b0707ba.jpg" width="375" height="500" alt="cross-folded" align="right" style="margin-left:1em;" /></a> It was really exciting to see the laser follow the my coded paths with speed and precision, making my algorithm into a physical thing.
