@@ -3,11 +3,11 @@ layout: default
 title: Blog
 ---
 
-<div class="posts">
+<div class="bloglist">
   {% for post in site.posts %}
-    <div class="post clear">
-      <span><a href="{{ post.url }}" style="text-decoration:none;">{{ post.title }}</a></span>
-      <span>{{ post.date | date_to_string }}</span>
-    </div>
+    <p>
+      <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      <span class="date">{{ post.date | date_to_string }}</span>
+    </p>
   {% endfor %}
 </div>

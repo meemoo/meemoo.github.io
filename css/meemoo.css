@@ -92,3 +92,7 @@ img.shot:hover {
 .span4 p {
     font-size: 11pt;
 }
+
+.bloglist .title {
+  font-size: 120%;
+}
