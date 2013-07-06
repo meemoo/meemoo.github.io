@@ -10,17 +10,17 @@ tags:
 
 ## Updates
 
-I'm updating http://meemooapp.tumblr.com/ more regularly than this blog. You can also see what [Matthias, our Summer of Code](http://matthiassoc.tumblr.com/) contributor is up to.
+I'm updating [meemooapp.tumblr.com](http://meemooapp.tumblr.com/) more regularly than this blog. You can also see what [Matthias, our Summer of Code](http://matthiassoc.tumblr.com/) contributor is up to.
 
 ## Events
 
 I'm excited to be taking part of three events at Eyebeam NYC in the coming weeks:
 
-July 12th - Open(Art) group exhibition opening: http://www.eyebeam.org/events/openart-–-creative-platforms-for-the-open-web ... the exhibit will be up until August 10th.
+July 12th - [Open(Art) group exhibition opening](http://www.eyebeam.org/events/openart-–-creative-platforms-for-the-open-web). The exhibit will be up until August 10th.
 
-July 13th - Educator media hacking workshop: http://www.eyebeam.org/events/openart-workshop-day ... we'll be talking about potential ways to use hackable web apps in education.
+July 13th - [Educator media hacking workshop](http://www.eyebeam.org/events/openart-workshop-day). We'll be talking about potential ways to use hackable web apps in education.
 
-July 15-19th - Animation workshop for teenagers: http://www.eyebeam.org/events/mozilla-maker-party-moving-storytelling ... in this week-long workshop we'll experiment with different kinds of GIF animation with the goal of telling a larger story with small animations.
+July 15-19th - [Animation workshop for teenagers](http://www.eyebeam.org/events/mozilla-maker-party-moving-storytelling). In this week-long workshop we'll experiment with different kinds of animation with the goal of telling a larger story with small GIF animations.
 
 ## Framework
 
