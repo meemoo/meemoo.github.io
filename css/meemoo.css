@@ -96,3 +96,13 @@ img.shot:hover {
 .bloglist .title {
   font-size: 120%;
 }
+
+.feedburnerFeedBlock {
+
+}
+  .feedburnerFeedBlock ul {
+    list-style: none;
+  }
+  .feedburnerFeedBlock .headline {
+    font-size: 120%;
+  }
