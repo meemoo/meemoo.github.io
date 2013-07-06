@@ -26,5 +26,5 @@ July 15-19th - Animation workshop for teenagers: http://www.eyebeam.org/events/m
 
 I have been making some big changes in Meemoo, including one issue that has been open almost since the start of the project: nesting graphs inside other graphs. This is called a "macro" or "subgraph" in other environments, and is key to making big graphs more manageable. Here is a [two-minute demo video](http://youtu.be/ylt0SJdAC5Y), and you can try it out on the [beta staging site](http://forresto.github.io/iframework/#gist/5940685).
 
--> ![antlers](http://meemoo.org/images/antlers.gif) <-
+-> ![antlers](http://meemoo.org/images/antlers.gif) <-  
 -> *see you in nyc!* <-
