@@ -1,9 +1,9 @@
 body {
   max-width: 750px;
   margin: 0 auto 25px;
-  font-family: Georgia, 'Times New Roman', serif;
-  color: #62504c;
-  background-color: #FDFDFA;
+  font-family: Verdana, sans-serif;
+  color: black;
+  background-color: white;
 }
 a {
   color: #9a7e77;

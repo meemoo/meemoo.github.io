@@ -28,4 +28,4 @@ I have been making some big changes in Meemoo, including one issue that has been
 
 -> ![antlers](http://meemoo.org/images/antlers.gif)  
 *see you in nyc!*  
-(made with [this app](http://meemoo.org/iframework/#gist/5933415))<-
+(made with [this app](http://meemoo.org/iframework/#gist/5933415)) <-
