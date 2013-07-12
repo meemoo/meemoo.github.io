@@ -96,9 +96,9 @@ img.shot:hover {
   font-size: 120%;
 }
 
-#secnav {
+#secNav {
   text-align: center;
 }
-.secNavTitles {
-  padding: 0 15px;
+#secNav a {
+  padding: 0 10px;
 }
