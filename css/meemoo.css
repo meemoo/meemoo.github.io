@@ -66,6 +66,10 @@ nav {
 .right { float: right; }
 .left { float: left; }
 
+.center {
+  text-align: center;
+}
+
 img.border,
 .post img {
   border: 1px #62504c dotted;
@@ -97,12 +101,9 @@ img.shot:hover {
   font-size: 120%;
 }
 
-.feedburnerFeedBlock {
-
+#secnav {
+  text-align: center;
 }
-  .feedburnerFeedBlock ul {
-    list-style: none;
-  }
-  .feedburnerFeedBlock .headline {
-    font-size: 120%;
-  }
+.secNavTitles {
+  padding: 0 15px;
+}
