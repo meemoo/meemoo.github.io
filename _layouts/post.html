@@ -41,7 +41,7 @@ layout: default
   var disqus_shortname = 'meemooapp';
   var disqus_identifier = '{{ page.url }}';
   var disqus_url = 'http://meemoo.org{{ page.url }}';
-  var disqus_title = '{{ page.title }}';
+  var disqus_title = encodeURI('{{ page.title }}');
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function() {
