@@ -1,0 +1,62 @@
+--- 
+layout: post
+title: Google Summer of Code 2014
+tags: 
+- gsoc
+- gsoc2014
+- google
+- mozilla
+- fbp
+- noflo
+- flowhub
+---
+
+![GSoC 2014](http://meemoo.org/images/gsoc2014.png)
+
+Thanks to [Mozilla](http://mozilla.org) I have
+[a project](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/automata/5733935958982656)
+accepted to
+[Google Summer of Code](https://www.google-melange.com/gsoc/homepage/google/gsoc2014)!
+I am so excited and grateful to Mozilla,
+[Forrest](http://forresto.com) and the
+[NoFlo](http://noflojs.org)/[Flowhub](http://flowhub.io) team! This is
+my second time in the program: back in 2012 I was mentored by Forrest
+[to work on Meemoo](https://wiki.mozilla.org/SummerOfCode/2012/Meemoo). This
+year I will be working under Forrest mentoring again, hacking on both
+Meemoo and NoFlo/Flowhub.
+
+[NoFlo](http://noflojs.org) is an open source JavaScript
+implementation of
+[Flow-Based Programming](http://en.wikipedia.org/wiki/Flow-based_programming)
+that you can plug in
+[many runtimes](http://flowhub.io/documentation/flowhub-faq/#what-runtimeslanguages-are-supported)
+like Web browsers, Node.js, GNOME and even Arduino and other
+microcontrollers. NoFlo empowers [Flowhub](http://flowhub.io), a
+visual programming environment that makes possible to _code without
+real code_: like Meemoo, you can code just dragging-and-dropping boxes
+and plugging them together with wires.
+
+The GSoC project idea is to implement main existing Meemoo modules as
+NoFlo components and subgraphs. Meemoo is strong in 2d drawing and
+animation so we will be creating NoFlo components and subgraphs to
+canvas 2d rendering. The main repository to follow for updates now is
+[noflo-canvas](http://github.com/noflo/noflo-canvas) and we wish to
+give some love to other component libraries like
+[noflo-tween](https://github.com/djdeath/noflo-tween),
+[noflo-webaudio](https://github.com/automata/noflo-webaudio) and an
+upcoming _noflo-three_.
+
+You can already give _noflo-canvas_ a try running [this example on Flowhub](http://app.flowhub.io/#example/5f74ae0e1efc6ab52757).
+
+[![Glitch generator](http://meemoo.org/images/glitch_generator.gif)](http://app.flowhub.io/#example/5f74ae0e1efc6ab52757)
+
+We hope to get many of the
+[existing Meemoo apps](http://meemoo.org/hack-our-apps) ported to
+NoFlo near the end of this summer and to create brand new ones. We
+also like to investigate ways to get Meemoo closer to
+[WebMaker](http://webmaker.org) tools: maybe we could use
+[MakeAPI](https://github.com/mozilla/MakeAPI) to publish on Mozilla
+WebMaker Gallery.
+
+This blog will receive weekly updates about what we are working on, so
+please keep following us!
