@@ -55,7 +55,7 @@ is already a [Bower component](http://github.com/automata/klay-js) to
 this interface, so you can use that on your own graphs.
 
 The auto layout feature provided by KlayJS is currently available on
-[Flowhub](http://app.flowhub.io): it's the *magic stick* you can weave
+[Flowhub](http://app.flowhub.io): it's the *magic wand* you can wave
 anytime you want to organize your graph.
 
 ![Auto layout in Flowhub](http://meemoo.org/images/autolayout-ui.gif)
@@ -74,7 +74,7 @@ becoming really useful:
    easy to read and document.
 
 Auto layout is not perfect, many times edges crosses and nodes are not
-well arranged, but it is a handful tool on FBP environments like
+well arranged, but it is a handy tool on FBP environments like
 [Flowhub](http://flowhub.io) / [Meemoo](http://meemoo.org) and we want
 to keep
 [improving it](https://github.com/the-grid/the-graph/issues/85).
