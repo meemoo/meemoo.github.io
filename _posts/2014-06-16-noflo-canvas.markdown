@@ -22,7 +22,7 @@ In *noflo-canvas*, you have components like `MakePoint` which receives an unique
 
 <img src="http://meemoo.org/images/oneXarray.gif" width="730" />
 
-When given an array of x and y coordinates, `MakePoint` makes one point *for each pair* of x and y. It remembers [Spreads](http://vvvv.org/documentation/tutorial-spreads) from [VVVV](http://vvvv.org). 
+When given an array of x and y coordinates, `MakePoint` makes one point *for each pair* of x and y. It is like [Spreads](http://vvvv.org/documentation/tutorial-spreads) from [VVVV](http://vvvv.org). 
 
 Another possibility is to create one point *for each possible combinations* of x and y. `MakeGrid` does that and resembles the *cross product* between two vectors (also resembles [Cross](http://vvvv.org/documentation/cross-%282d%29) from *VVVV*). This example makes it easy to understand:
 
