@@ -13,7 +13,7 @@ tags:
 
 Now that we have a working [noflo-canvas](http://github.com/noflo/noflo-canvas) it is time to try more complex shapes. [Voronoi Diagram](http://en.wikipedia.org/wiki/Voronoi_diagram) and [Delaunay Triangulation](http://en.wikipedia.org/wiki/Delaunay_triangulation) are canonical algorithms from [Computational Geometry](http://en.wikipedia.org/wiki/Computational_geometry) and were made classic for generative art or creative coding. These algorithms are useful to create textures or meshes. In general, you can give them a set of points and Voronoi will create cells around your points. Delaunay will draw triangles for each possible triple of points, with non-crossing edges:
 
-![Voronoi and Delaunay](http://meemoo.org/images/voronoi_delaunay.gif)
+![Voronoi and Delaunay](http://meemoo.org/images/delaunay_voronoi.gif)
 
 To better understand the Delaunay Triangulation, let's see an example. The following figure shows a triangulation for a set of points. Note the circumcircles around each possible triangle:
 
@@ -27,7 +27,7 @@ As you can see, the red points are inside the circumcircle of our green triangle
 
 And what about Voronoi Diagram? There's many ways to understand what Voronoi algorithm is about, but there's an easy way now that we know Delaunay Triangulation. Voronoi is dual (or related) to Delaunay. If we connect the center points of all the triangle circumcircles obtained by the Delaunay Triangulation, we have the Voronoi Diagram!
 
-![Voronoi and Delaunay duality (modified from Wikipedia)](http://meemoo.org/images/voronoi_delaunay_dual.gif)
+![Voronoi and Delaunay duality (modified from Wikipedia)](http://meemoo.org/images/delaunay_voronoi_dual.gif)
 
 The [noflo-geometry](http://github.com/automata/noflo-geometry) implements both Voronoi and Delaunay algorithms. Being NoFlo a general purpose flow-based environment, it is a common approach to search for JS libraries which implements what you want and encapsulate them as a bunch of components. For [noflo-geometry](http://github.com/automata/noflo-geometry) we used libraries by [@ironwallaby](https://github.com/ironwallaby/delaunay) and [@gorhill](https://github.com/gorhill/Javascript-Voronoi), and thanks to NoFlo now you can use both as components with a common interface, at the same environment:
 
