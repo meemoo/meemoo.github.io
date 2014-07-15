@@ -29,7 +29,7 @@ There's no points inside of any of the circumcircles: the points are located rig
 
 As you can see, the red points are inside the circumcircle of our green triangle, so it's not a valid triangle. That's what Delaunay Triangulation is about: for a given set of points, it finds all the triangles which points are not inside a circumcircle (formed by the triangles).
 
-And what about Voronoi Diagram? There's many ways to understand what Voronoi algorithm is about, but there's an easy way now that we know Delaunay Triangulation. Voronoi is dual (or related) to Delaunay. If we connect the center points of all the triangle circumcircles obtained by the Delaunay Triangulation, we have the Voronoi Diagram!
+And what about Voronoi Diagram? There's many ways to understand what Voronoi algorithm is about, but there's an easy way now that we know Delaunay Triangulation. Voronoi is [dual](http://en.wikipedia.org/wiki/Duality_(mathematics)) (or related) to Delaunay. If we connect the center points of all the triangle circumcircles obtained by the Delaunay Triangulation, we have the Voronoi Diagram!
 
 ![Voronoi and Delaunay duality (modified from Wikipedia)](http://meemoo.org/images/delaunay_voronoi_dual.gif)
 
