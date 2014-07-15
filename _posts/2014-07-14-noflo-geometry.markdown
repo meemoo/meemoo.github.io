@@ -19,7 +19,7 @@ Other examples follow:
 
 ![Voronoi and Delaunay](http://meemoo.org/images/delaunay_voronoi.gif)
 
-To better understand the Delaunay Triangulation, let's see an example. The following figure shows a triangulation for a set of points. Note the circumcircles around each possible triangle:
+To better understand the Delaunay Triangulation, let's see an example. The following figure shows a triangulation for a set of points. Note the [circumcircles](http://en.wikipedia.org/wiki/Circumscribed_circle) around each possible triangle:
 
 ![Delaunay right example (modified from Wikipedia)](http://meemoo.org/images/delaunay_right.png)
 
