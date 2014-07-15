@@ -11,7 +11,11 @@ tags:
 - flowhub
 ---
 
-Now that we have a working [noflo-canvas](http://github.com/noflo/noflo-canvas) it is time to try more complex shapes. [Voronoi Diagram](http://en.wikipedia.org/wiki/Voronoi_diagram) and [Delaunay Triangulation](http://en.wikipedia.org/wiki/Delaunay_triangulation) are canonical algorithms from [Computational Geometry](http://en.wikipedia.org/wiki/Computational_geometry) and were made classic for generative art or creative coding. These algorithms are useful to create textures or meshes. In general, you can give them a set of points and Voronoi will create cells around your points. Delaunay will draw triangles for each possible triple of points, with non-crossing edges:
+Now that we have a working [noflo-canvas](http://github.com/noflo/noflo-canvas) it is time to try more complex shapes. [Voronoi Diagram](http://en.wikipedia.org/wiki/Voronoi_diagram) and [Delaunay Triangulation](http://en.wikipedia.org/wiki/Delaunay_triangulation) are canonical algorithms from [Computational Geometry](http://en.wikipedia.org/wiki/Computational_geometry) and were made classic for generative art or creative coding. These algorithms are useful to create textures or meshes. In general, you can give them a set of points and Voronoi will create cells around your points. Delaunay will draw triangles for each possible triple of points, with non-crossing edges. This figure presents both Voronoi Diagram (in pink) and Delaunay Triangulation (in blue) for some random points (in yellow):
+
+![Voronoi and Delaunay](http://meemoo.org/images/delaunay_voronoi_still.png)
+
+Other examples follow:
 
 ![Voronoi and Delaunay](http://meemoo.org/images/delaunay_voronoi.gif)
 
