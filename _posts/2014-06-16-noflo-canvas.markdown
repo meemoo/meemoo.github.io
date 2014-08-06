@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: An introduction to noflo-canvas
+author: automata
 tags: 
 - gsoc
 - gsoc2014

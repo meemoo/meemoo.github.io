@@ -1,6 +1,8 @@
 ---
 layout: nil
 ---
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
@@ -12,14 +14,21 @@ layout: nil
  <author>
    <name>Forrest Oliphant</name>
    <email>forrest@forresto.com</email>
+   <uri>http://forresto.com</uri>
  </author>
 
  {% for post in site.posts limit:15 %}
+ {% assign author = site.authors[post.author] %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://meemoo.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://meemoo.org{{ post.id }}</id>
+   <author>
+    <name>{{ author.display_name }}</name>
+    <email>{{ author.email }}</email>
+    <uri>{{ author.web }}</uri>
+   </author>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

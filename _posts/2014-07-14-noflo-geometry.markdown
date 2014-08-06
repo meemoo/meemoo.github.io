@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: noflo-geometry
+author: automata
 tags: 
 - gsoc
 - gsoc2014

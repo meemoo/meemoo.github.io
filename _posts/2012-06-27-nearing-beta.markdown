@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Nearing beta
+author: forresto
 tags: 
 - progress
 - ux

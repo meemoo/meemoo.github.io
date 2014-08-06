@@ -1,3 +1,20 @@
 markdown: rdiscount
 pygments: true
 permalink: /blog/:year-:month-:day-:title
+authors:
+  forresto:
+    name: Forrest Oliphant
+    display_name: Forrest Oliphant
+    gravatar: 3197ec499a390d8864425852c79e2d31
+    email: forrest@sembiki.com
+    web: http://forresto.com
+    twitter: forresto
+    github: forresto
+  automata:
+    name: Vilson Vieira
+    display_name: Vilson Vieira
+    gravatar: 4cf07a620d97eca05b59ba61b07d5d3a
+    email: vilson@void.cc
+    web: http://automata.cc
+    twitter: aut0mata
+    github: automata

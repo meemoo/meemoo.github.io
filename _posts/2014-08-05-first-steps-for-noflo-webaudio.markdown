@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: First steps for noflo-webaudio
+author: automata
 tags: 
 - gsoc
 - gsoc2014

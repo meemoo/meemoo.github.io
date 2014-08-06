@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: FBP and NoFlo - another hacker's perspective
+author: forresto
 tags: 
 - fbp
 - noflo

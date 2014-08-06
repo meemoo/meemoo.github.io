@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Open(Art) update
+author: forresto
 tags: 
 - openart
 - update

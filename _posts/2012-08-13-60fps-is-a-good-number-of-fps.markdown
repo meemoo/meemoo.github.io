@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: 60fps is a good number of fps
+author: forresto
 tags: 
 - progress
 - native

@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 
 <div class="post clear">
   <h1><a href="{{ page.url }}" style="text-decoration:none;">{{ page.title }}</a></h1>
-  <p>{{ page.date | date_to_string }}</p>
+  <p>{{ page.date | date_to_string }} by <i><a href="{{ author.web }}">{{ author.display_name }}</a></i></p>
   {{ content }}
 </div>
 

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Finished writing, now back to the code
+author: forresto
 tags: 
 - thesis
 - ux

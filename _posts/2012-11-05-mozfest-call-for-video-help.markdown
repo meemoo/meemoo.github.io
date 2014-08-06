@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: MozFest call for video help
+author: forresto
 tags: 
 - video
 - help

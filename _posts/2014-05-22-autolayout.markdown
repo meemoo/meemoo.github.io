@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Auto layout
+author: automata
 tags: 
 - fbp
 - noflo

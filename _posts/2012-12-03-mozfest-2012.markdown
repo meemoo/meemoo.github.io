@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Mozfest 2012
+author: forresto
 tags: 
 - mozfest
 - modules

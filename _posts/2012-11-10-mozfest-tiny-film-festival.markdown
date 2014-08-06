@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: MozFest tiny film festival :-)
+author: forresto
 tags: 
 - gif
 - animation

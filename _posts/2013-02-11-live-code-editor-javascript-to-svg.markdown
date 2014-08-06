@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Live edit JavaScript turtle graphics to SVG
+author: forresto
 tags: 
 - turtle graphics
 - svg

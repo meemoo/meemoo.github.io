@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Live animation with Meemoo as VJ software
+author: forresto
 tags: 
 - vj
 - live

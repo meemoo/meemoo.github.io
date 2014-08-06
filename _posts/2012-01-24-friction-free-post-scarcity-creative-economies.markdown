@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Friction-Free Post-Scarcity Creative Economies
+author: forresto
 tags: 
 - creative-commons
 - flattr
