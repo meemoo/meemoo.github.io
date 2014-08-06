@@ -21,7 +21,7 @@ This simple demo was presented by Forrest in his last [Assembly
 talk](http://www.forresto.com/2014/08/the-toybox-and-the-toolbox/). It
 illustrates how we are combining audio and visuals in NoFlo. 
 
-The demo uses [noflo-webaudio](http://github.com/automata/noflo-webaudio), our
+It uses [noflo-webaudio](http://github.com/automata/noflo-webaudio), our
 wrapper library to the Web Audio API. [Web Audio
 API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) defines a
 "signal-flow graph" where audio sources connect to processors and can be
@@ -32,9 +32,9 @@ with Web Audio.
 
 In [noflo-canvas](http://github.com/noflo/noflo-canvas), each component
 generates lispy commands that are lazy-evaluated in a complex component
-(__Draw__). We are doing the same for [noflo-
+(*Draw*). We are doing the same for [noflo-
 webaudio](http://github.com/automata/noflo-webaudio). In this way, we have
-some components like __Oscillator__ and __Gain__ that sends lispy commands
+some components like *Oscillator* and *Gain* that sends lispy commands
 like the following:
 
 ```
@@ -52,8 +52,8 @@ which, again, maps to a lispy representation like
       0.8)
 ```
 
-Each time a component input (like __Oscillator__'s frequency) changes, it
-sends an updated command as its output. The __Play__ component gets all those
+Each time a component input (like *Oscillator*'s frequency) changes, it
+sends an updated command as its output. The *Play* component gets all those
 commands and takes care of how to plug them together and update the parameters
 when needed.
 
@@ -61,9 +61,9 @@ The major difference is that [noflo-canvas](http://github.com/noflo/noflo-
 canvas) follows a "redraw the entire canvas everytime" paradigm while [noflo-
 webaudio](http://github.com/automata/noflo-webaudio) can't reconnect all the
 audio nodes everytime: most of the time the audio graph doesn't change, just
-the parameters. So __Play__ should be smart enough to walk through the
-received commands and decide which should be reconnected (like __Oscillators__ and
-__AudioBufferSource__) and which should has just its parameter updated.
+the parameters. So *Play* should be smart enough to walk through the
+received commands and decide which should be reconnected (like *Oscillators* and
+*AudioFile*) and which should has just its parameter updated.
 
 The JSON representation of such signal-flow graphs remembers a declarative
 paradigm. We are exploring a Web Audio library called
@@ -73,6 +73,11 @@ graphs in a declarative way that maps directly in the way we are dealing with
 webaudio](http://github.com/automata/noflo-webaudio) for now. So we should
 have an usable [noflo-flocking](http://github.com/automata/noflo-flocking)
 soon.
+
+We already have support for Web Audio API in Android (both Firefox and Chrome)
+so we can expect mobile music instruments in NoFlo in a near future!
+
+<iframe src="//player.vimeo.com/video/102201555?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="800" height="535" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 We started the [noflo-three](http://github.com/automata/noflo-three)
 components library to [Three.js](http://threejs.org) in this meanwhile too. I
