@@ -61,18 +61,18 @@ The major difference is that [noflo-canvas](http://github.com/noflo/noflo-canvas
 audio nodes everytime: most of the time the audio graph doesn't change, just
 the parameters. So *Play* should be smart enough to walk through the
 received commands and decide which should be reconnected (like *Oscillators* and
-*AudioFile*) and which should has just its parameter updated.
+*AudioFile*) and which should have just its parameter updated.
 
 The JSON representation of such signal-flow graphs remembers a declarative
 paradigm. We are exploring a Web Audio library called
 [Flocking](http://flockingjs.org/) which makes possible to define signal-flow
 graphs in a declarative way that maps directly in the way we are dealing with
 [noflo-canvas](http://github.com/noflo/noflo-canvas) and [noflo-webaudio](http://github.com/automata/noflo-webaudio) for now. So we should
-have an usable [noflo-flocking](http://github.com/automata/noflo-flocking)
+have a usable [noflo-flocking](http://github.com/automata/noflo-flocking)
 soon.
 
 We already have support for Web Audio API in Android and iOS devices
-so we can expect mobile music instruments in NoFlo in a near future!
+so we can expect mobile music instruments in NoFlo in the near future!
 
 <iframe src="//player.vimeo.com/video/102201555?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="800" height="535" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
