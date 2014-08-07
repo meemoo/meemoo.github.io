@@ -77,8 +77,7 @@ so we can expect mobile music instruments in NoFlo in the near future!
 <iframe src="//player.vimeo.com/video/102201555?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="800" height="535" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 We started the [noflo-three](http://github.com/automata/noflo-three)
-components library to [Three.js](http://threejs.org) in this meanwhile too. I
-guess the same design we used for [noflo-webaudio](http://github.com/automata
+components library to [Three.js](http://threejs.org) during this time too. We hope the same design we used for [noflo-webaudio](http://github.com/automata
 /noflo-webaudio) can be applied to a scene graph like that used in
 [Three.js](http://threejs.org). We are also making some nice generative stuff
 with [noflo-canvas](http://github.com/noflo/noflo-canvas) that we will love to
