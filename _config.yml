@@ -18,3 +18,5 @@ authors:
     web: http://automata.cc
     twitter: aut0mata
     github: automata
+defaults:
+  author: forresto

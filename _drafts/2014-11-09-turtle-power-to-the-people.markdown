@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Turtle power to the people
-author: Vilson
+author: automata
 tags: 
 - mozilla
 - mozfest
