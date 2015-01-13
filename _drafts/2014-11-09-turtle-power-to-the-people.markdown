@@ -15,6 +15,8 @@ tags:
 The Grid meet up
 ===
 
+<a href="https://www.flickr.com/photos/auto_mata/15065111643" title="MozFest 2014 #ArtOfWeb by Vilson Vieira, on Flickr"><img src="https://farm8.staticflickr.com/7552/15065111643_46ca051fa5_c.jpg" style="max-width: 100%;" alt="MozFest 2014 #ArtOfWeb"></a>
+
 After working for about three years with [Forrest](http://twitter.com/forresto) we finally meet him on a meet up of [The Grid](http://thegrid.io) team.
 
 During the first days we were preparing a workshop for [MozFest's #ArtOfWeb](http://mozfestartoftheweb.tumblr.com/) track. The idea was to present a quick introduction to [Flowhub](http://flowhub.io)/[NoFlo](http://noflojs.org) and how to use it to draw with [Mirobot](http://mirobot.io). Then we would let people create their own drawings. 
