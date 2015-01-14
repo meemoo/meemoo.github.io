@@ -51,7 +51,7 @@ While preparing the workshop we built a hack to Mirobot, making it possible to d
 MozFest's ArtOfWeb
 ===
 
-MozFest was fantastic. We met [Kat](http://twitter.com/codekat), [Eric](http://twitter.com/jenelson), [Paula](http://twitter.com/archiville), [Michelle](http://twitter.com/mishymishyme), [Allison](http://twitter.com/alliself), [Ginger](http://twitter.com/ossington), [Ricardo](http://twitter.com/rlaf) and all the other incredible "art phreaks" of the [#ArtOfWeb](mozfestartoftheweb.tumblr.com) track. [Ben Pirt](http://twitter.com/bjpirt), the Mirobot's creator, joined us in the art gallery and bring us his bots and kindness.
+MozFest was fantastic. We met [Kat](http://twitter.com/codekat), [Eric](http://twitter.com/jenelson), [Paula](http://twitter.com/archiville), [Michelle](http://twitter.com/mishymishyme), [Allison](http://twitter.com/alliself), [Ginger](http://twitter.com/ossington), [Ricardo](http://twitter.com/rlaf) and all the other incredible "art phreaks" of the [#ArtOfWeb](mozfestartoftheweb.tumblr.com) track. [Ben Pirt](http://twitter.com/bjpirt), the Mirobot's creator, joined us in the art gallery and brought us his bots and kindness.
 
 ArtOfWeb was a refuge during the chaotic creative tornado of MozFest. A place to chat, create and relax listening to [good music](http://soundcloud.com/alahaus/sets/mozfestartgallerymixl2) and enjoying art installations.
 
