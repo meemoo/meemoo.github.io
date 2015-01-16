@@ -17,7 +17,7 @@ The Grid meet up
 
 <a href="https://www.flickr.com/photos/auto_mata/15065111643" title="MozFest 2014 #ArtOfWeb by Vilson Vieira, on Flickr"><img src="https://farm8.staticflickr.com/7552/15065111643_46ca051fa5_c.jpg" style="max-width: 100%;" alt="MozFest 2014 #ArtOfWeb"></a>
 
-After working for about three years with [Forrest](http://twitter.com/forresto) we finally meet him on a meet up of [The Grid](http://thegrid.io) team.
+After working for about three years with [Forrest](http://twitter.com/forresto) we finally meet him on a meet up of [The Grid](https://thegrid.io/#15) team.
 
 During the first days we were preparing a workshop for [MozFest's #ArtOfWeb](http://mozfestartoftheweb.tumblr.com/) track. The idea was to present a quick introduction to [Flowhub](http://flowhub.io)/[NoFlo](http://noflojs.org) and how to use it to draw with [Mirobot](http://mirobot.io). Then we would let people create their own drawings. 
 
@@ -39,7 +39,7 @@ The other graph collects points someone draw on a canvas and after sending that,
 
 <a href="https://www.flickr.com/photos/auto_mata/15065111643" title="MozFest 2014 #ArtOfWeb by Vilson Vieira, on Flickr"><img src="https://farm8.staticflickr.com/7552/15065111643_46ca051fa5_c.jpg" style="max-width: 100%;" alt="MozFest 2014 #ArtOfWeb"></a>
 
-The meetup with [The Grid](http://thegrid.io) was incredible. We met [Forrest](http://twitter.com/forresto), [Jon Nordby](http://twitter.com/jononor) and [Henri Bergius](http://twitter.com/bergie). [Lionel Landwerlin](http://twitter.com/llandwerlin) joined us some days later. Those guys never stopped coding and inspiring us.
+The meetup with [The Grid](https://thegrid.io/#15) was incredible. We met [Forrest](http://twitter.com/forresto), [Jon Nordby](http://twitter.com/jononor) and [Henri Bergius](http://twitter.com/bergie). [Lionel Landwerlin](http://twitter.com/llandwerlin) joined us some days later. Those guys never stopped coding and inspiring us.
 
 More robots on the way
 ===
@@ -79,7 +79,7 @@ The festival ended up with a demo party where the most revealing feeling of coll
 
 We hope the next workshops are like this last experience and we'll try to make it happen more in the future. As well pointed by Kat, "[let's (re)make networked art](https://medium.com/@codekat/hello-world-lets-re-make-networked-art-6bb06913ac3a)".
 
-We really want to thank and give a huge hug on all people we met. To our dear colleagues of [The Grid](http://thegrid.io), that made it possible to happen, thank you for all. To [Mozilla](http://mozilla.org), thank you to bring this amazing people together for a better Web of openness and opportunity. 
+We really want to thank and give a huge hug on all people we met. To our dear colleagues of [The Grid](https://thegrid.io/#15), that made it possible to happen, thank you for all. To [Mozilla](http://mozilla.org), thank you to bring this amazing people together for a better Web of openness and opportunity. 
 
 <a href="https://www.flickr.com/photos/neon_lobster/15480685669" title="Mozfest 2014 | #ARTOFWEB by Kat B, on Flickr"><img src="https://farm8.staticflickr.com/7578/15480685669_e0dac38c14_c.jpg" style="max-width: 100%;" alt="Mozfest 2014 | #ARTOFWEB"></a>
 
