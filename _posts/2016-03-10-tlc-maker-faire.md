@@ -14,7 +14,7 @@ We were invited to set up a stop-motion animation station at the local school's 
 
 One young man asked how to wire in [sound effects](http://www.leshylabs.com/apps/sfMaker/)... that's a module that needs to be made!
 
-<iframe src="https://i.imgur.com/cHx8TV4.gifv" width="300" height="300" /> ![aperture](https://i.imgur.com/lLByoNc.gif) ![alien olive flower](https://i.imgur.com/eVcMcw6.gif) ![](https://i.imgur.com/53odKlP.gif) ![shape dance](https://i.imgur.com/cqii4Du.gif) ![blink](https://i.imgur.com/47XHGD0.gif) ![jumping tailless](https://i.imgur.com/oBzROxq.gif) ![smile frown](https://i.imgur.com/EYysC6P.gif) ![fire flower](https://i.imgur.com/jbOQxEB.gif) 
+<iframe src="https://i.imgur.com/cHx8TV4.gifv" width="300" height="300"></iframe> ![aperture](https://i.imgur.com/lLByoNc.gif) ![alien olive flower](https://i.imgur.com/eVcMcw6.gif) ![](https://i.imgur.com/53odKlP.gif) ![shape dance](https://i.imgur.com/cqii4Du.gif) ![blink](https://i.imgur.com/47XHGD0.gif) ![jumping tailless](https://i.imgur.com/oBzROxq.gif) ![smile frown](https://i.imgur.com/EYysC6P.gif) ![fire flower](https://i.imgur.com/jbOQxEB.gif) 
 
 ## Update
 
