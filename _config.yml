@@ -1,4 +1,3 @@
-markdown: rdiscount
 pygments: true
 permalink: /blog/:year-:month-:day-:title
 authors:
