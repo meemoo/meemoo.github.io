@@ -33,7 +33,7 @@ With this sequence of layers in the Meemoo ecosystem, I imagined guiding folks d
 4. They might stop there, but they might notice the invitation to hack the app, and see the data flow behind the UI. (Layer 2)
 5. Once they understand how hacking the app works, and see the library of available modules, they might want to hack a module or make their own with code. (Layer 3)
 
-There was also supposed to be a community site for sharing and forking these mini apps. Why did Meemoo stall with just the dataflow layer? Probably some combination of starting a family, running out of grant funding, and getting a day job. Standing up an online community is a major obligation in terms of moderation. I felt like making a community without committing the resources to make it a safe and good learning environment would be worse than not making the community at all. Meemoo hasn't gained traction or a life of its own, which I've decided to be :ok: with.
+There was also supposed to be a community site for sharing and forking these mini apps. Why did Meemoo stall with just the dataflow layer? Probably some combination of starting a family, running out of grant funding, and getting a day job. Standing up an online community is a major obligation in terms of moderation. I felt like making a community without committing the resources to make it a safe and good learning environment would be worse than not making the community at all. Meemoo hasn't gained traction or a life of its own, which I've decided to be OK with.
 
 Also it reached a local maxima of being "fun enough," which isn't a bad thing.
 
@@ -41,7 +41,9 @@ Also it reached a local maxima of being "fun enough," which isn't a bad thing.
 
 So what is there to do at this point? Will there be a Meemoo 2.0?
 
-Meemoo is built on Backbone and jQuery/UI, which are fairly obsolete. A lot has changed in web development in the 9 years since my first commits. In the first version, the camera module was powered by Flash, because the [web standards for accessing a device camera](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia) hadn't shipped yet. As standards like this shipped to the web platform, I was able to remove code and complexity. 
+Meemoo is built on Backbone and jQuery/UI, which are fairly obsolete. On the other hand, they are simple, stable, and _work_.
+
+A lot has changed in web development in the 9 years since my first commits. In the first version, the camera module was powered by Flash, because the [web standards for accessing a device camera](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia) hadn't shipped yet. As standards like this shipped to the web platform, I was able to remove code and complexity. 
 
 Meemoo's "Hello World" app is a camera module that sends images to an image stack, that can compile an animated GIF.
 
@@ -85,4 +87,4 @@ Do any other component systems expose "data types" like this? Is there room for 
 
 ## HMU
 
-After several years on the backburner, I'd like to find Meemoo's next step. Got ideas? 👉 https://github.com/meemoo/meemooapp/issues/145
+After several years on the backburner, I'd like to find Meemoo's next step. Got ideas? 👉 [Talk in issue #145](https://github.com/meemoo/meemooapp/issues/145)
