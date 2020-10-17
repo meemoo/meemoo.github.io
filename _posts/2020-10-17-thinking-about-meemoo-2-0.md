@@ -47,7 +47,7 @@ A lot has changed in web development in the 9 years since my first commits. In t
 
 Meemoo's "Hello World" app is a camera module that sends images to an image stack, that can compile an animated GIF.
 
-<iframe src="https://app.meemoo.org/#example/cam2gif" style="width: 100%; height: 360px;"></iframe>
+<iframe allow="camera" src="https://app.meemoo.org/#example/cam2gif" style="width: 100%; height: 480px;"></iframe>
 
 [Meemoo cam2gif](https://app.meemoo.org/#example/cam2gif)
 
